@@ -1,22 +1,17 @@
-:host {
-  display: block;
-  padding: 20px;
-  position: relative;
-  background-color: transparent; /* Ovisno o vašem dizajnu */
-}
+
 
 .contact-container {
-  padding-top: 5%;
+  /*padding-top: 5%;*/
   display: flex;
   flex-direction: row;
   align-items: center; /* Centriranje sadržaja unutar kontejnera */
   flex-wrap: wrap; /* Omogućuje prelazak u novu vrsticu */
 }
 
-.contact-info {
+.contact-info-container {
   display: flex;
   flex-direction: column; /* Prikaz stavki u vertikalnom nizu */
-  padding-left: 10%;
+  align-items: center;
   gap: 30px; /* Povećan razmak između stavki */
   flex-grow: 1;
 }
@@ -44,7 +39,7 @@
 }
 
 /* Stiliziranje SVG ikone */
-.svg-container {
+.img-container {
   display: flex;
   justify-content: center; /* Centriranje SVG ikone horizontalno */
   align-items: center; /* Centriranje SVG ikone vertikalno */
@@ -52,8 +47,8 @@
 }
 
 .contact-icon {
-  width: 250px; /* Povećana širina SVG ikone */
-  height: auto; /* Održava proporcije visine u odnosu na širinu */
+  width: auto;
+  height: 50dvh; /* Održava proporcije visine u odnosu na širinu */
 }
 
 /* Media query za male ekrane */
@@ -63,12 +58,17 @@
     align-items: center; /* Centriranje sadržaja unutar kontejnera */
   }
 
-  .contact-info {
+  .contact-info-container {
     padding-left: 0; /* Ukloni lijevi padding za male ekrane */
     gap: 20px; /* Povećaj razmak između stavki */
   }
 
-  .svg-container {
+  .contact-icon{
+    width: 30dvw;
+    height: auto;
+  }
+
+  .img-container {
     margin-top: 30px; /* Dodaj razmak između SVG ikone i kontaktnog sadržaja */
   }
 }
