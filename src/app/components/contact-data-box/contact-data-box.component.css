@@ -1,0 +1,74 @@
+:host {
+  display: block;
+  padding: 20px;
+  position: relative;
+  background-color: transparent; /* Ovisno o vašem dizajnu */
+}
+
+.contact-container {
+  padding-top: 5%;
+  display: flex;
+  flex-direction: row;
+  align-items: center; /* Centriranje sadržaja unutar kontejnera */
+  flex-wrap: wrap; /* Omogućuje prelazak u novu vrsticu */
+}
+
+.contact-info {
+  display: flex;
+  flex-direction: column; /* Prikaz stavki u vertikalnom nizu */
+  padding-left: 10%;
+  gap: 30px; /* Povećan razmak između stavki */
+  flex-grow: 1;
+}
+
+.contact-item {
+  display: flex;
+  align-items: center; /* Poravnavanje ikona i teksta prema vertikalnoj osi */
+  gap: 15px;
+  padding-bottom: 30px;
+}
+
+.contact-item i {
+  font-size: 24px; /* Prikladna veličina ikona */
+  color: #0c1421; /* Tamno plava boja koja se slaže s headerom */
+}
+
+.contact-item a {
+  text-decoration: none;
+  color: #0c1421; /* Tamno plava boja za tekst */
+  font-size: 18px;
+}
+
+.contact-item a:hover {
+  text-decoration: underline;
+}
+
+/* Stiliziranje SVG ikone */
+.svg-container {
+  display: flex;
+  justify-content: center; /* Centriranje SVG ikone horizontalno */
+  align-items: center; /* Centriranje SVG ikone vertikalno */
+  flex-grow: 1; /* Omogućuje da SVG ikona zauzima raspoloživi prostor */
+}
+
+.contact-icon {
+  width: 250px; /* Povećana širina SVG ikone */
+  height: auto; /* Održava proporcije visine u odnosu na širinu */
+}
+
+/* Media query za male ekrane */
+@media (max-width: 768px) {
+  .contact-container {
+    flex-direction: column; /* Promijeni raspored u stupce za male ekrane */
+    align-items: center; /* Centriranje sadržaja unutar kontejnera */
+  }
+
+  .contact-info {
+    padding-left: 0; /* Ukloni lijevi padding za male ekrane */
+    gap: 20px; /* Povećaj razmak između stavki */
+  }
+
+  .svg-container {
+    margin-top: 30px; /* Dodaj razmak između SVG ikone i kontaktnog sadržaja */
+  }
+}

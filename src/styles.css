@@ -1,1 +1,16 @@
-/* You can add global styles to this file, and also import other style files */
+@import "bootstrap-icons/font/bootstrap-icons.css";
+
+:root {
+  --background-color: #0c1421; /* Definirajte ovdje vašu boju */
+}
+
+.background {
+    height: 100vh;
+    background-color: var(--background-color);
+/*    background-color :#192d4e;*/
+/*
+  // ne bo gradient ozadja
+    --bg-dark:#0c1421;
+    --bg-light:#192d4e;
+    background-image: linear-gradient(var(--bg-dark), var(--bg-light));*/
+}

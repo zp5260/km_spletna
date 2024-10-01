@@ -1,0 +1,55 @@
+.title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+h1 {
+  color: white;
+  font-size: 8vh; /* Velikost pisave se prilagaja glede na širino zaslona */
+  line-height: 0.1;
+  font-family: 'Tahoma', sans-serif;
+  letter-spacing: 5px; /* Povečanje razmaka med črkami */
+}
+
+/* Media query za manjše zaslone */
+@media (max-width: 768px) {
+/*  h1 {
+    font-size: 8vh; *//* Večja velikost pisave za manjše zaslone *//*
+  }*/
+}
+
+@keyframes slide-from-left {
+  from {
+    transform: translateX(-52vw);
+    opacity: 0;
+  }
+  to {
+    transform: translateX(0%);
+    opacity: 1;
+  }
+}
+
+@keyframes slide-from-right {
+  from {
+    transform: translateX(52vw);
+    opacity: 0;
+  }
+  to {
+    transform: translateX(0%);
+    opacity: 1;
+  }
+}
+
+.animate-from-left {
+  animation: slide-from-left 1000ms;
+  animation-delay: 500ms;
+  animation-fill-mode: backwards;
+}
+
+.animate-from-right {
+  animation: slide-from-right 1000ms;
+  animation-delay: 500ms;
+  animation-fill-mode: backwards;
+}

@@ -1,0 +1,28 @@
+/* contact-us.component.css */
+:host {
+  display: block;
+  height: calc(100vh - 60px); /* Adjust 60px to match the height of your header */
+ /* background-color: #fffbeb; */
+  background-color: white;
+  padding: 20px;
+}
+
+p {
+  font-size: 17px;
+  margin-top: 0px;
+}
+
+.contact-us {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 20%;
+  padding-top: 3%
+}
+
+.contact-us h1 {
+  font-size: 48px; /* Adjust the font size as needed */
+  color: black;
+  margin-top: 0px;
+}

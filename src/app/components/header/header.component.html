@@ -1,0 +1,24 @@
+<header>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-3 col-sm-3 col-3">
+
+<!--          <h2 class="glowing-text-yellow logo">Kviz mojster</h2>-->
+          <img src="assets/images/logo.png" class="logo-img" alt="Kviz mojster logo" />
+      </div>
+      <div class="col-md-9 col-sm-9 col-9">
+        <div class="desktop_menu" [class.mobile_menu]="menuValue">
+          <ul>
+            <li routerLink="/about-us" routerLinkActive="active" (click)="closeMenu()">Kdo smo</li>
+            <li (click)="closeMenu()">Novice</li>
+            <li (click)="closeMenu()">Najemi nas</li>
+            <li routerLink="/contact-us" routerLinkActive="active" (click)="closeMenu()">Kontakt</li>
+          </ul>
+        </div>
+        <div class="menu-icon" (click)="openMenu()">
+          <i class="{{menuIcon}}"></i>
+        </div>
+      </div>
+    </div>
+  </div>
+</header>
