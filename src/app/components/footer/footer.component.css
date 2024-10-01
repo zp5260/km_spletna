@@ -1,0 +1,65 @@
+.footer-container {
+  color: white;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.contact-info, .footer-info {
+  margin: 10px;
+}
+
+.footer-info {
+  align-self: flex-end;
+  text-align: right;
+}
+
+.footer-info p {
+  margin-bottom: 0px;
+}
+
+.contact-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 5px;
+}
+
+.contact-item i {
+  margin-right: 10px;
+  font-size: 18px;
+}
+
+.contact-item a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.contact-item a:hover {
+  text-decoration: underline;
+}
+
+/* Media query za manjše zaslone */
+@media (max-width: 768px) {
+  .footer-content {
+    flex-direction: column; /* Stisnemo elemente vertikalno na manjših zaslonih */
+    align-items: flex-start; /* Levo poravnano */
+  }
+
+  .footer-info {
+    align-self: flex-start; /* Premaknemo copyright na začetek vrstice */
+    text-align: left;
+    margin-top: 20px; /* Dodamo nekaj razmika med kontakti in copyright */
+  }
+
+  .contact-item {
+    margin-bottom: 10px; /* Več prostora med kontakti na manjših zaslonih */
+  }
+}
