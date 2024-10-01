@@ -72,27 +72,39 @@ header {
 
 /* Media query for small screens */
 @media (max-width: 768px) {
+  header {
+    padding: 5px;
+    padding-left: 15px;
+    padding-right: 0px;
+  }
+
   .desktop_menu {
     transition:0.4s ease-in-out;
-    display: block;
+    display: flex;
     position: fixed;
-    right: -300px;
+    right: -100%;
     top: 64px;
-    width: 280px;
-    height: 100%;
+    width: 100%;
     z-index: 9999;
     padding-top: 20px;
+    background-color: #0c1421;
+    justify-content: center;
+
   }
 
   .desktop_menu ul {
     display: block;
+    width: 100%;
   }
 
   .desktop_menu ul li {
-    display: block;
-    text-align: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
     margin: 0;
-    padding: 10px 26px;
+    padding: 10px;
+    font-size: 30px;
     border-bottom: 1px solid rgba(255, 255, 255, 0.2);
     width: 100%;
   }

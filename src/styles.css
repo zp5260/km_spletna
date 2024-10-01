@@ -4,13 +4,9 @@
   --background-color: #0c1421; /* Definirajte ovdje vašu boju */
 }
 
-.background {
-    height: 100vh;
-    background-color: var(--background-color);
-/*    background-color :#192d4e;*/
-/*
-  // ne bo gradient ozadja
-    --bg-dark:#0c1421;
-    --bg-light:#192d4e;
-    background-image: linear-gradient(var(--bg-dark), var(--bg-light));*/
+.body {
+  background-color: var(--background-color);
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
