@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import {Component, Input} from '@angular/core';
 
 @Component({
   selector: 'app-km-animation',
@@ -7,4 +7,6 @@ import { Component } from '@angular/core';
   styleUrl: './km-animation.component.css'
 })
 export class KmAnimationComponent {
+  @Input() firstWord!: string;
+  @Input() secondWord!: string;
 }

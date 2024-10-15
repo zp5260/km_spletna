@@ -1,0 +1,16 @@
+<div class="custom-card"
+     [ngStyle]="{'background-image': backgroundImage}"
+     (mouseenter)="isHovered = true"
+     (mouseleave)="isHovered = false">
+<!--     [ngStyle]="{-->
+<!--        'background-image': isHovered ? 'none' : backgroundImage,-->
+<!--       'background-color': isHovered ? 'var(&#45;&#45;background-color)' : 'transparent'     }"-->
+
+  <div class="overlay">
+    @if (isHovered) {
+      <div  class="back-text">{{ backtext }}</div>
+    } @else {
+      <span class="overlay-text" [innerHTML]="title"></span>
+    }
+  </div>
+</div>

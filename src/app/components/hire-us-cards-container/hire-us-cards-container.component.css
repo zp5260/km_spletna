@@ -1,0 +1,23 @@
+.card-container {
+  display: flex; /* Uporabi Flexbox */
+  flex-wrap: wrap; /* Omogoči prelom vrstic */
+  justify-content: center; /* Poravnaj kartice na sredino */
+  padding: 5vh; /* Doda padding okoli kontejnerja */
+  gap: 5vw; /* Razmak med karticami */
+  background-color: #dae3f1;
+}
+
+/* Prilagajanje za manjše zaslone */
+@media (max-width: 600px) {
+  .card-container {
+    flex-direction: column; /* Postavi kartice v stolpec */
+    align-items: center; /* Poravnaj kartice na sredino */
+    padding: 10px; /* Zmanjšaj padding za manjše zaslone */
+  }
+
+  app-hire-us-card {
+    width: 90%; /* Kartice zasedejo 90% širine zaslona */
+    max-width: 400px; /* Največja širina kartice na manjših zaslonih */
+    margin: 10px 0; /* Dodaj vertikalni razmak */
+  }
+}

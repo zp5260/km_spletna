@@ -1,9 +1,9 @@
-/* contact-us.component.css */
 :host {
   display: block;
   height: calc(100vh - 60px); /* Adjust 60px to match the height of your header */
  /* background-color: #fffbeb; */
-  background-color: white;
+ /* background-color: #ecf1f8;*/
+  background-color: #dae3f1;
   padding: 20px;
 }
 

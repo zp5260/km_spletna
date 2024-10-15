@@ -1,0 +1,55 @@
+.custom-card {
+  display: flex;
+  width: 15vw; /* 1/5 širine zaslona */
+  height: 15vw; /* Ohranitev kvadratne oblike */
+  background-size: cover; /* Samodejno prilagajanje in obrezovanje */
+  background-position: center;
+  position: relative;
+  max-width: 500px;
+  max-height: 500px;
+  min-width: 200px;
+  min-height: 200px;
+}
+
+.overlay {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  transition: background-color 0.4s ease;/* Zatemni ozadje */
+}
+.overlay:hover{
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+.overlay-text {
+  color: white; /* Bele barve besedila */
+  font-size: 2vw; /* Velikost pisave v odvisnosti od širine zaslona */
+  font-weight: bold;
+  text-align: center;
+  padding: 3px;
+}
+
+.back-text {
+  color: white; /* Barva besedila, ko je kartica hover */
+  font-size: 20px; /* Velikost pisave za backtext */
+  text-align: center;
+  z-index: 1; /* Poskrbite, da je besedilo nad drugimi elementi */
+  padding: 10px;
+}
+
+
+
+@media (max-width: 720px) {
+  .custom-card {
+    width: 80vw; /* Kartica zasede 80% širine zaslona */
+    height: 80vw; /* Ohranitev kvadratne oblike */
+  }
+
+  .overlay-text {
+    font-size: 8vw; /* Manjša velikost pisave za mobilne naprave */
+  }
+}
