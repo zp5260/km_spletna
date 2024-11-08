@@ -4,7 +4,7 @@
   justify-content: center; /* Poravnaj kartice na sredino */
   padding: 5vh; /* Doda padding okoli kontejnerja */
   gap: 5vw; /* Razmak med karticami */
-  background-color: #dae3f1;
+  padding-bottom: 10vh;
 }
 
 /* Prilagajanje za manjše zaslone */

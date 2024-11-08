@@ -1,0 +1,22 @@
+import { Component } from '@angular/core';
+import {FeedbackComponent} from "../feedback/feedback.component";
+
+@Component({
+  selector: 'app-about-us-feedbacks',
+  standalone: true,
+  imports: [
+    FeedbackComponent
+  ],
+  templateUrl: './about-us-feedbacks.component.html',
+  styleUrl: './about-us-feedbacks.component.css'
+})
+export class AboutUsFeedbacksComponent {
+  public weAreText1 = "Smo mlada ekipa, ki svojo strast do iger prenaša v posel.";
+  public weAreText2 = "V lokalih in na dogodkih po Sloveniji organiziramo pub kvize, od koder tudi naše ime;";
+  public weAreText3 = "kviz mojster je namreč oseba, ki med kvizom postavlja vprašanja.\n";
+  public f1 = '"Zelo radi hodimo na vaše kvize, ker imate kvalitetna vprašanja in super izvedbo."';
+  public f2 = '"Thank you so much for the birthday quiz, many people told me they truly enjoyed it!"';
+  public f3 = '"Za tak večer pa se je splačalo prit iz Maribora! Pridemo še!"';
+  public f4 = '"Super ste! <3"';
+  public f5 = '"Samo povem, to je bil najboljši kviz, na katerem sem bil do sedaj."';
+}

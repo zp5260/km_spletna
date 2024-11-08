@@ -1,11 +1,4 @@
 
-.glowing-text-yellow {
-  color: yellow;
-  text-shadow: 0 0 5px rgba(255, 255, 255, 0.8),
-               0 0 10px rgba(255, 255, 255, 0.8),
-               0 0 15px rgba(255, 255, 255, 0.8);
-}
-
 .logo-img {
   max-width: 150px; /* Maksimalna širina logotipa */
   max-height: 50px; /* Maksimalna višina logotipa

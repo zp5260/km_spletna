@@ -1,10 +1,19 @@
-:host {
-  display: block;
-  height: calc(100vh - 60px); /* Adjust 60px to match the height of your header */
- /* background-color: #fffbeb; */
- /* background-color: #ecf1f8;*/
+.body{
+  display: flex;
+  flex-direction: row;
   background-color: #dae3f1;
+  height: calc(100vh - 60px); /* Adjust 60px to match the height of your header */
   padding: 20px;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 10vh;
+}
+.left-side{
+  display: flex;
+  flex-grow: 1;
+  flex-direction: column;
+  justify-content: center;
+  align-self: center;
 }
 
 p {
@@ -18,11 +27,90 @@ p {
   align-items: center;
   flex-direction: column;
   height: 20%;
-  padding-top: 3%
+  padding-bottom: 7vh;
 }
 
 .contact-us h1 {
   font-size: 48px; /* Adjust the font size as needed */
   color: black;
   margin-top: 0px;
+}
+
+
+.contact-container {
+  /*padding-top: 5%;*/
+  display: flex;
+  flex-direction: row;
+  align-items: center; /* Centriranje sadržaja unutar kontejnera */
+  flex-wrap: wrap; /* Omogućuje prelazak u novu vrsticu */
+}
+
+.contact-info-container {
+  display: flex;
+  flex-direction: column; /* Prikaz stavki u vertikalnom nizu */
+  align-items: center;
+  gap: 30px; /* Povećan razmak između stavki */
+}
+
+.contact-item {
+  display: flex;
+  align-items: center; /* Poravnavanje ikona i teksta prema vertikalnoj osi */
+  gap: 15px;
+  padding-bottom: 30px;
+}
+
+.contact-item i {
+  font-size: 24px; /* Prikladna veličina ikona */
+  color: #0c1421; /* Tamno plava boja koja se slaže s headerom */
+}
+
+.contact-item a {
+  text-decoration: none;
+  color: #0c1421; /* Tamno plava boja za tekst */
+  font-size: 18px;
+}
+
+.contact-item a:hover {
+  text-decoration: underline;
+}
+
+/* Stiliziranje SVG ikone */
+.img-container {
+  padding-top: 8vh;
+  flex-grow: 1;
+  display: flex;
+  justify-content: center; /* Centriranje SVG ikone horizontalno */
+  align-items: center; /* Centriranje SVG ikone vertikalno */
+}
+
+.contact-icon {
+  width: auto;
+  height: 50dvh; /* Održava proporcije visine u odnosu na širinu */
+}
+
+/* Media query za male ekrane */
+@media (max-width: 768px) {
+  .body {
+    display: flex;
+    flex-direction: column;
+  }
+  .contact-container {
+    flex-direction: column; /* Promijeni raspored u stupce za male ekrane */
+    align-items: center; /* Centriranje sadržaja unutar kontejnera */
+  }
+
+  .contact-info-container {
+    padding-left: 0; /* Ukloni lijevi padding za male ekrane */
+    gap: 20px; /* Povećaj razmak između stavki */
+  }
+
+  .contact-icon{
+    width: 60vw;
+    height: auto;
+  }
+
+  .img-container {
+    margin-top: 30px; /* Dodaj razmak između SVG ikone i kontaktnog sadržaja */
+  }
+
 }

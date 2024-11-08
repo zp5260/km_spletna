@@ -1,0 +1,23 @@
+<div class="container">
+  <h2 class="title">Kdo smo?</h2>
+  <div class="who-are-we-container">
+    <div class="who-are-we-text">
+      <p>{{weAreText1}}</p>
+      <p>{{weAreText2}}</p>
+      <p>{{weAreText3}}</p>
+    </div>
+    <div class="who-are-we-photo">
+      <img src="assets/images/zalasabi.png" class="zala-sabi" alt="picture of kviz mojster team members"/>
+    </div>
+  </div>
+  <div>
+    <h3 class="title">Mnenja obiskovalcev</h3>
+  </div>
+  <div class="feedback-container">
+    <app-feedback [feedback]="f1" class="offset-card card-1"></app-feedback>
+    <app-feedback [feedback]="f2" class="offset-card card-2"></app-feedback>
+    <app-feedback [feedback]="f3" class="offset-card card-3"></app-feedback>
+    <app-feedback [feedback]="f4" class="offset-card card-4"></app-feedback>
+    <app-feedback [feedback]="f5" class="offset-card card-5"></app-feedback>
+  </div>
+</div>
