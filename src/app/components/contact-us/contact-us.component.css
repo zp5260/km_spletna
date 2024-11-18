@@ -4,7 +4,7 @@
   /* old */
   /*background-color: #dae3f1;*/
   /* new */
-  background-color: var(--background-color);;
+  background-color: var(--background-color);
   height: calc(100vh - 60px); /* Adjust 60px to match the height of your header */
   padding: 20px;
   align-items: center;
@@ -97,6 +97,8 @@ p {
   .body {
     display: flex;
     flex-direction: column;
+    height: auto;
+    padding-top: 15%;
   }
   .contact-container {
     flex-direction: column; /* Promijeni raspored u stupce za male ekrane */
