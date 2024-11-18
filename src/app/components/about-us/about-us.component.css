@@ -4,7 +4,7 @@
 /*  align-items: center;*/
   height: auto; /* Takes up almost the entire viewport height */
   width: 100%;
-  background: url('/assets/images/km_naslovnica_dark.jpg') center/cover no-repeat; /* Image as background */
+  background: url('/assets/images/km_naslovnica.jpg') center/cover no-repeat; /* Image as background */
   position: relative;
   overflow: hidden; /* Ensure gradient mask is visible only within about-us-container */
 }

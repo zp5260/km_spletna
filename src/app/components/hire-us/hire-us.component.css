@@ -3,7 +3,7 @@
   justify-content: center; /* Align text to the right */
   /*  align-items: center;*/
   height: 70vh; /* Takes up almost the entire viewport height */
-  background: url('/assets/images/hire-us1.jpg') center/cover no-repeat; /* Image as background */
+  background: url('/assets/images/hire-us.jpg') center/cover no-repeat; /* Image as background */
   position: relative;
   overflow: hidden; /* Ensure gradient mask is visible only within about-us-container */
 }
@@ -13,7 +13,10 @@
   align-items: center;
   justify-content:center;
   flex-direction: column;
-  background-color: #dae3f1;
+  /*  stara */
+  /*background-color: #dae3f1;*/
+  /* modra */
+  background-color: var(--background-color);
   padding-bottom: 10vh;
 }
 

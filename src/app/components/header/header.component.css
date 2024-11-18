@@ -10,6 +10,10 @@ header {
   padding: 10px;
   padding-left: 30px;
   padding-right: 30px;
+  /*meni ni tolko lepo*/
+  /*border-bottom: 0.5px solid #ffb3d9; !* Tanjši roza neon border *!*/
+  /*box-shadow: 0 0 0.5px #FF69B4,*/
+  /*0 0 3px rgba(255, 105, 180, 0.5);*/
 }
 
 .row {

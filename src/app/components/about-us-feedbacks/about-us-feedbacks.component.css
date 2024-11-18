@@ -17,6 +17,7 @@
   flex-direction: column;
   gap: 3vw;
   padding-top: 30px;
+  padding-bottom: 30px;
   background-color: var(--background-color);
 }
 

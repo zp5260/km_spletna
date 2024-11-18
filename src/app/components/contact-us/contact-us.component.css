@@ -1,12 +1,16 @@
 .body{
   display: flex;
   flex-direction: row;
-  background-color: #dae3f1;
+  /* old */
+  /*background-color: #dae3f1;*/
+  /* new */
+  background-color: var(--background-color);;
   height: calc(100vh - 60px); /* Adjust 60px to match the height of your header */
   padding: 20px;
   align-items: center;
   justify-content: center;
   padding-bottom: 10vh;
+  border-top: 0.5px solid yellow;
 }
 .left-side{
   display: flex;
@@ -66,7 +70,7 @@ p {
 
 .contact-item a {
   text-decoration: none;
-  color: #0c1421; /* Tamno plava boja za tekst */
+  color: #0c1421; /* Tamno plava barva za tekst */
   font-size: 18px;
 }
 
