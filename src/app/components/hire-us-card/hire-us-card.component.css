@@ -28,7 +28,8 @@
 
 .overlay-text {
   color: white; /* Bele barve besedila */
-  font-size: 2vw; /* Velikost pisave v odvisnosti od širine zaslona */
+  /*font-size: 2vw; !* Velikost pisave v odvisnosti od širine zaslona *!*/
+  font-size: 30px;
   font-weight: bold;
   text-align: center;
   padding: 3px;

@@ -9,8 +9,10 @@ h1 {
   color: white;
   font-size: 8vh; /* Velikost pisave se prilagaja glede na širino zaslona */
   line-height: 0.1;
-  font-family: 'Tahoma', sans-serif;
-  letter-spacing: 5px; /* Povečanje razmaka med črkami */
+  font-family: "DM Serif Text", serif;
+  font-weight: 400;
+  font-style: normal;
+  /*letter-spacing: 5px; !* Povečanje razmaka med črkami *!*/
 }
 
 /* Media query za manjše zaslone */
