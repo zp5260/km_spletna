@@ -88,13 +88,19 @@ p {
 }
 
 /* Media query za male ekrane */
-@media (max-width: 768px) {
+@media (max-width: 800px) {
   .body {
     display: flex;
     flex-direction: column;
     height: auto;
     padding-top: 15%;
   }
+
+  p {
+    font-size: 20px;
+  }
+
+
   .contact-container {
     flex-direction: column; /* Promijeni raspored u stupce za male ekrane */
     align-items: center; /* Centriranje sadržaja unutar kontejnera */
@@ -105,8 +111,8 @@ p {
     gap: 20px; /* Povećaj razmak između stavki */
   }
 
-  .contact-icon{
-    width: 60vw;
+  .phone-img {
+    width: 70vw;
     height: auto;
   }
 

@@ -57,7 +57,7 @@
 }
 
 /* Media query za manjše zaslone */
-@media (max-width: 768px) {
+@media (max-width: 800px) {
   .footer-content {
     flex-direction: column; /* Stisnemo elemente vertikalno na manjših zaslonih */
     align-items: flex-start; /* Levo poravnano */

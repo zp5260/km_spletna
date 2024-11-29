@@ -21,6 +21,7 @@
   display: flex;
   flex-grow: 1;
   align-items: center;
+  justify-content: center;
 }
 
 .subtext{
@@ -42,8 +43,8 @@
 
 
 /* Media query za manjše zaslone */
-@media (max-width: 768px) {
-  /*  h1 {
-      font-size: 8vh; *//* Večja velikost pisave za manjše zaslone *//*
-    }*/
+@media (max-width: 800px) {
+   h1 {
+      font-size: 30px;
+    }
 }

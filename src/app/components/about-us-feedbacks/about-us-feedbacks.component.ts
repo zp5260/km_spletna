@@ -12,7 +12,7 @@ import {FeedbackComponent} from "../feedback/feedback.component";
 })
 export class AboutUsFeedbacksComponent {
   public weAreText = "Smo mlada ekipa kvizoljubov. V lokalih in na dogodkih po Sloveniji organiziramo pub kvize," +
-    " od koder izvira tudi naše ime; kviz mojster je namreč oseba, ki med kvizom postavlja vprašanja.";
+    " od koder izvira tudi naše ime; KVIZ MOJSTER je namreč oseba, ki med kvizom postavlja vprašanja.";
   public f1 = '"Zelo radi hodimo na vaše kvize, ker imate kvalitetna vprašanja in super izvedbo."';
   public f2 = '"Thank you so much for the birthday quiz, many people told me they truly enjoyed it!"';
   public f3 = '"Za tak večer pa se je splačalo prit iz Maribora! Pridemo še!"';

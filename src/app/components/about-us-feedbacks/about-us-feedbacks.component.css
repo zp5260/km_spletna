@@ -56,10 +56,9 @@
 
 .who-are-we-text {
   width: 60%;
-  /*flex-grow: 0.5;*/
   font-size: 20px;
   padding-bottom: 30px;
-  text-align: center;
+  text-align: justify;
 }
 
 .who-are-we-photo{
@@ -77,7 +76,7 @@
   display: block;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 800px) {
   .who-are-we-container{
     flex-direction: column;
     padding-bottom: 50px;

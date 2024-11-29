@@ -44,7 +44,7 @@
 
 
 
-@media (max-width: 720px) {
+@media (max-width: 800px) {
   .custom-card {
     width: 80vw; /* Kartica zasede 80% širine zaslona */
     height: 80vw; /* Ohranitev kvadratne oblike */

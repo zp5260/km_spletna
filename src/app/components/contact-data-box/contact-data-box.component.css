@@ -52,7 +52,7 @@
 }
 
 /* Media query za male ekrane */
-@media (max-width: 768px) {
+@media (max-width: 800px) {
   .contact-container {
     flex-direction: column; /* Promijeni raspored u stupce za male ekrane */
     align-items: center; /* Centriranje sadržaja unutar kontejnera */

@@ -53,3 +53,9 @@ h1 {
   animation-delay: 500ms;
   animation-fill-mode: backwards;
 }
+
+@media (max-width: 800px) {
+  h1 {
+    font-size: 50px;
+  }
+}
