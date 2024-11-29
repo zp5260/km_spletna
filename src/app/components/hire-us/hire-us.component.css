@@ -1,8 +1,8 @@
 .about-us-container {
   display: flex;
   justify-content: center; /* Align text to the right */
-  /*  align-items: center;*/
-  height: 70vh; /* Takes up almost the entire viewport height */
+    align-items: center;
+  height: 95vh; /* Takes up almost the entire viewport height */
   background: url('/assets/images/hire-us.jpg') center/cover no-repeat; /* Image as background */
   position: relative;
   overflow: hidden; /* Ensure gradient mask is visible only within about-us-container */

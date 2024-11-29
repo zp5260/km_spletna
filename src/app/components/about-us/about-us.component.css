@@ -1,15 +1,15 @@
 .about-us-container {
   display: flex;
   justify-content: center; /* Align text to the right */
-/*  align-items: center;*/
-  height: auto; /* Takes up almost the entire viewport height */
-  width: 100%;
+  height: 95vh; /* Takes up almost the entire viewport height */
+  width: auto;
   background: url('/assets/images/km_naslovnica.jpg') center/cover no-repeat; /* Image as background */
   position: relative;
   overflow: hidden; /* Ensure gradient mask is visible only within about-us-container */
 }
 
 .about-us-content {
+  display: flex;
   max-width: 50%; /* Text on the right half */
   z-index: 2;
   color: white; /* Make text stand out from the image */
@@ -17,15 +17,17 @@
   flex-direction: column
 }
 
-
-
+.animation-container{
+  display: flex;
+  flex-grow: 1;
+  align-items: center;
+}
 
 .subtext{
   display: flex;
   justify-content: center;
   align-items: center;
   margin-top: auto;
-  padding-top: 20vh;
   text-align: center;
 }
 
