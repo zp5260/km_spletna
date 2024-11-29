@@ -1,9 +1,6 @@
 .body{
   display: flex;
   flex-direction: row;
-  /* old */
-  /*background-color: #dae3f1;*/
-  /* new */
   background-color: var(--background-color);
   height: calc(100vh - 60px); /* Adjust 60px to match the height of your header */
   padding: 20px;
@@ -35,8 +32,7 @@ p {
 }
 
 .contact-us h1 {
-  font-size: 48px; /* Adjust the font size as needed */
-  color: black;
+  font-size: 48px; /* Adjust the font size as needed */s
   margin-top: 0px;
 }
 
@@ -65,13 +61,12 @@ p {
 
 .contact-item i {
   font-size: 24px; /* Prikladna veličina ikona */
-  color: #0c1421; /* Tamno plava boja koja se slaže s headerom */
 }
 
 .contact-item a {
   text-decoration: none;
-  color: #0c1421; /* Tamno plava barva za tekst */
   font-size: 18px;
+  color: white;
 }
 
 .contact-item a:hover {
