@@ -25,6 +25,11 @@
   text-align: center;
 }
 
+.hire-us-text a{
+  color: white;
+}
+
+
 .about-us-content {
   max-width: 50%; /* Text on the right half */
   z-index: 2;

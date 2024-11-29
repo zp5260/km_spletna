@@ -82,9 +82,9 @@ p {
   align-items: center; /* Centriranje SVG ikone vertikalno */
 }
 
-.contact-icon {
+.phone-img {
   width: auto;
-  height: 50dvh; /* Održava proporcije visine u odnosu na širinu */
+  height: 80dvh; /* Održava proporcije visine u odnosu na širinu */
 }
 
 /* Media query za male ekrane */
