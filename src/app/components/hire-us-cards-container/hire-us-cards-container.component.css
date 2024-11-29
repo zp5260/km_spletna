@@ -4,6 +4,7 @@
   justify-content: center; /* Poravnaj kartice na sredino */
   gap: 5vw; /* Razmak med karticami */
   padding-bottom: 10vh;
+  padding-top: 13vh;
 }
 
 /* Prilagajanje za manjše zaslone */
@@ -11,6 +12,8 @@
   .card-container {
     flex-direction: column; /* Postavi kartice v stolpec */
     align-items: center; /* Poravnaj kartice na sredino */
-    padding: 30px; /* Zmanjšaj padding za manjše zaslone */
+    /*padding: 50px; !* Zmanjšaj padding za manjše zaslone *!*/
+    /*padding-top: 100px;*/
+    gap: 30px;
   }
 }

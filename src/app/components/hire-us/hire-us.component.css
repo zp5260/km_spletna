@@ -13,9 +13,6 @@
   align-items: center;
   justify-content:center;
   flex-direction: column;
-  /*  stara */
-  /*background-color: #dae3f1;*/
-  /* modra */
   background-color: var(--background-color);
   padding-bottom: 10vh;
 }

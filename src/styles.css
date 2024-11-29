@@ -1,7 +1,9 @@
 @import "bootstrap-icons/font/bootstrap-icons.css";
 
 :root {
-  --background-color: #0c1421; /* Definirajte ovdje vašu boju */
+  --background-color: #0c1421;
+  --lighter-blue: #192d4e;
+  --yellow: #fbe66d;
 }
 
 .body {
