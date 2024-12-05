@@ -4,3 +4,4 @@ deployment:
     - export DEPLOYPATH=/kvizmojster/src
     - /bin/cp index.html $DEPLOYPATH
     - /bin/cp style.css $DEPLOYPATH
+    - /bin/cp main.ts $DEPLOYPATH
