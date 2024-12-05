@@ -24,12 +24,15 @@
   justify-content: center;
 }
 
-.subtext{
+.subtext h2{
   display: flex;
   justify-content: center;
   align-items: center;
   margin-top: auto;
   text-align: center;
+  font-family: "DM Serif Text", serif;
+  font-style: normal;
+  font-weight: normal;
 }
 
 .about-us-content h1 {

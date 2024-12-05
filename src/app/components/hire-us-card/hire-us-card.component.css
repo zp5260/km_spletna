@@ -28,8 +28,10 @@
 
 .overlay-text {
   color: white; /* Bele barve besedila */
-  font-size: 2vw; /* Velikost pisave v odvisnosti od širine zaslona */
-  font-weight: bold;
+  font-size: 25px; /* Velikost pisave v odvisnosti od širine zaslona */
+  font-family: "DM Serif Text", serif;
+  font-style: normal;
+  font-weight: normal;
   text-align: center;
   padding: 3px;
 }

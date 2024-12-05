@@ -17,11 +17,8 @@ header {
   align-items: center;
   justify-content: space-between;
 }
-
-.logo {
-  width: 2px;
-  margin: 0;
-  cursor: pointer;
+.logo{
+  display: flex;
 }
 
 .desktop_menu {

@@ -18,7 +18,7 @@
 }
 
 .hire-us-text{
-  font-size: 1.5vw;
+  font-size: 20px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -36,14 +36,6 @@
   color: white; /* Make text stand out from the image */
   flex-direction: column;
   align-self: center;
-}
-
-.about-us-content h1 {
-  color: white;
-  font-size: 8vh; /* Velikost pisave se prilagaja glede na širino zaslona */
-  line-height: 0.1;
-  font-family: 'Tahoma', sans-serif;
-  letter-spacing: 5px; /* Povečanje razmaka med črkami */
 }
 
 .title {

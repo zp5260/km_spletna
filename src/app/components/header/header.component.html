@@ -1,14 +1,13 @@
 <header>
   <div class="container">
     <div class="row">
-      <div class="col-md-3 col-sm-3 col-3">
+      <div class="col-md-3 col-sm-3 col-3 logo">
           <img src="assets/images/logo.png" class="logo-img" alt="Kviz mojster logo" />
       </div>
       <div class="col-md-9 col-sm-9 col-9">
         <div class="desktop_menu" [class.mobile_menu]="menuValue">
           <ul>
             <li routerLink="/about-us" routerLinkActive="active" (click)="closeMenu()">Kdo smo</li>
-<!--            <li (click)="closeMenu()">Novice</li>-->
             <li routerLink="/hire-us" routerLinkActive="active" (click)="closeMenu()">Najemi nas</li>
             <li routerLink="/contact-us" routerLinkActive="active" (click)="closeMenu()">Kontakt</li>
           </ul>
