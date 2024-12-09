@@ -10,16 +10,21 @@ import {NgStyle} from "@angular/common";
     CardModule,
     NgStyle
   ],
-  styleUrl: './hire-us-card.component.css'
+  styleUrls: ['./hire-us-card.component.css']
 })
 export class HireUsCardComponent {
   @Input() title!: string;
   @Input() imagePath!: string;
-  @Input() backtext!: string; // Dodano za backtext
-  isHovered: boolean = false; // Spremenljivka za sledenje kliku
+  @Input() backtext!: string;
+  isHoveredClicked: boolean = false; // Združena spremenljivka za hover in klik
 
   // Pridobi stil ozadja iz imagePath
   get backgroundImage(): string {
     return `url(${this.imagePath})`;
+  }
+
+  // Upravljanje klika ali hoverja
+  toggleHoverClick(state: boolean): void {
+    this.isHoveredClicked = state;
   }
 }
