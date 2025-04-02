@@ -1,6 +1,7 @@
 .about-us-container {
   display: flex;
   justify-content: center; /* Align text to the right */
+  align-items:center;
   height: 95vh; /* Takes up almost the entire viewport height */
   width: auto;
   background: url('/assets/images/km_naslovnica.jpg') center/cover no-repeat; /* Image as background */
@@ -9,18 +10,12 @@
 }
 
 .about-us-content {
-  display: flex;
-  max-width: 50%; /* Text on the right half */
-  z-index: 2;
   color: white; /* Make text stand out from the image */
-  padding: 10vh;
-  flex-direction: column
+  flex-direction: column;
 }
 
 .animation-container{
   display: flex;
-  flex-grow: 1;
-  align-items: center;
   justify-content: center;
 }
 
@@ -28,11 +23,33 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-top: auto;
   text-align: center;
   font-family: "DM Serif Text", serif;
   font-style: normal;
   font-weight: normal;
+  padding-bottom: 15vh;
+}
+
+.button-container{
+  display: flex;
+  justify-content: center;
+  padding-bottom: 30px;
+}
+
+.rounded-btn {
+  padding: 10px 30px;
+  border-radius: 50px;
+  background-color: #ffe57a;
+  color: var(--background-color);
+  border: none;
+  cursor: pointer;
+  font-size: 25px;
+  font-family: "DM Serif Text", serif;
+  transition: background-color 0.3s;
+}
+
+.rounded-btn:hover {
+  background-color: #ffd62e;
 }
 
 .about-us-content h1 {
