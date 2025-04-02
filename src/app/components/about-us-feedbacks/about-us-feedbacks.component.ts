@@ -18,4 +18,9 @@ export class AboutUsFeedbacksComponent {
   public f3 = '"Za tak večer pa se je splačalo prit iz Maribora! Pridemo še!"';
   public f4 = '"Super ste! <3"';
   public f5 = '"Samo povem, to je bil najboljši kviz, na katerem sem bil do sedaj."';
+  public a1 = '~ R';
+  public a2 = '~ A';
+  public a3 = '~ N';
+  public a4 = '~ V';
+  public a5 = '~ M';
 }

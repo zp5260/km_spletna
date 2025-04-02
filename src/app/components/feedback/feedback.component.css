@@ -1,6 +1,8 @@
 .custom-card {
   display: flex;
   padding: 24px; /* Večji padding */
+  padding-top: 6px;
+  padding-bottom: 6px;
   /*margin: 3dvw;*/
   border-radius: 20px; /* Ovalni robovi */
   background-color: var(--background-color);

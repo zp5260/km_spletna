@@ -12,4 +12,5 @@ import {CardModule} from "primeng/card";
 })
 export class FeedbackComponent {
   @Input() feedback!: string;
+  @Input() author!: string;
 }
