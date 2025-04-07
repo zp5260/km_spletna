@@ -1,0 +1,43 @@
+.product-card {
+  width: 20vw;
+  max-width: 450px;
+  min-width: 300px;
+  font-family: sans-serif;
+}
+
+.product-image {
+  width: 100%;
+  height: 200px; /* ali poljubna enotna višina */
+  object-fit: cover; /* ohrani središče slike, odreže višek */
+  display: block;
+}
+
+
+.product-content {
+ padding-left: 0px;
+ padding-top: 5px;
+}
+
+.product-title {
+  font-size: 1.25rem;
+  font-family: "DM Serif Text", serif;
+  font-weight: 40;
+  font-style: normal;
+  margin: 0 0 0.2rem 0;
+  color: #000;
+}
+
+.product-subtitle {
+  font-size: 1.10rem;
+  font-family: "Tajawal", serif;
+  color: #333;
+  margin: 0 0 0.1rem 0;
+}
+
+.product-price {
+  font-size: 1.25rem;
+  font-weight: bold;
+  font-family: "Tajawal", serif;
+  color: #000;
+  margin: 0;
+}

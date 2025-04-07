@@ -1,0 +1,47 @@
+.store-container {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: #faf8f6;
+  height: auto;
+  min-height: calc(80vh - 60px); /* Adjust 60px to match the height of your header */
+  padding: 20px;
+  padding-top: 15vh;
+  justify-content: center;
+  padding-bottom: 15vh;
+  align-self: stretch;      /* po višini, če je vertikalni flex */
+  width: 100%;
+  max-width: 100vw;
+  gap: 4vw;
+}
+
+.button-container{
+  display: flex;
+  justify-content: center;
+  padding-bottom: 30px;
+}
+
+.rounded-btn {
+  padding: 10px 30px;
+  border-radius: 50px;
+  background-color: #ffe57a;
+  color: var(--background-color);
+  border: none;
+  cursor: pointer;
+  font-size: 25px;
+  font-family: "DM Serif Text", serif;
+  transition: background-color 0.3s;
+}
+
+.rounded-btn:hover {
+  background-color: #ffd62e;
+}
+@media (max-width: 768px) {
+  .product-card {
+    width: 90%;
+  }
+
+  .store-container {
+    padding: 50px 0;
+    gap: 2rem;
+  }
+}

@@ -3,6 +3,7 @@ import { RouterModule, Routes } from '@angular/router';
 import { AboutUsComponent } from './components/about-us/about-us.component';
 import { ContactUsComponent } from './components/contact-us/contact-us.component';
 import {HireUsComponent} from "./components/hire-us/hire-us.component";
+import {StoreComponent} from "./components/store/store.component";
 
 
 export const routes: Routes = [
@@ -10,6 +11,7 @@ export const routes: Routes = [
 //   { path: 'novice', component: NoviceComponent },
   { path: 'hire-us', component: HireUsComponent },
   { path: 'contact-us', component: ContactUsComponent },
+  { path: 'store', component: StoreComponent },
   { path: '', redirectTo: '/about-us', pathMatch: 'full' }, // privzeta stran
   { path: '**', redirectTo: 'contact-us' } // če je napačna pot
 ];

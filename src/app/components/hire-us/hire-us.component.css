@@ -1,7 +1,7 @@
 .about-us-container {
   display: flex;
   justify-content: center; /* Align text to the right */
-    align-items: center;
+  align-items: center;
   height: 95vh; /* Takes up almost the entire viewport height */
   background: url('/assets/images/hire-us.jpg') center/cover no-repeat; /* Image as background */
   position: relative;
