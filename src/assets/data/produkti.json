@@ -1,0 +1,42 @@
+[
+  {
+    "id": 1,
+    "title": "Pomladni kviz za doma",
+    "shortDesc": "Kvizmojstrov digitalni kviz za doma. Primeren za vse generacije.",
+    "price": "19.99",
+    "imgUrl": "assets/images/products/kviz-doma/kvizdoma.png",
+    "longDesc": "Pub kviz, ki ga lahko doma igrate s prijatelji in družino. \n\nZa igro potrebujete samo računalnik, dostop do interneta, papirje in pisala. Za izvedbo pub kviza doma samo sledite projekciji. \n\nDo kviza dostopate z mailom. Dobite ga v roku enega delovnega dne po nakupu, ko obdelamo vaše naročilo/plačilo.\n\nNa začetku vas čakajo kratka navodila, nato pa celoten kviz, vključno s posnetki in rešitvami. Pub kviz, ki ga lahko doma igrate s prijatelji in družino. \n\nZa igro potrebujete samo računalnik, dostop do interneta, papirje in pisala. Za izvedbo pub kviza doma samo sledite projekciji. \n\nDo kviza dostopate z mailom. Dobite ga v roku enega delovnega dne po nakupu, ko obdelamo vaše naročilo/plačilo.\n\nNa začetku vas čakajo kratka navodila, nato pa celoten kviz, vključno s posnetki in rešitvami. Pub kviz, ki ga lahko doma igrate s prijatelji in družino. \n\nZa igro potrebujete samo računalnik, dostop do interneta, papirje in pisala. Za izvedbo pub kviza doma samo sledite projekciji. \n\nDo kviza dostopate z mailom. Dobite ga v roku enega delovnega dne po nakupu, ko obdelamo vaše naročilo/plačilo.\n\nNa začetku vas čakajo kratka navodila, nato pa celoten kviz, vključno s posnetki in rešitvami.",
+    "gallery": [
+      { "type": "image", "src": "assets/images/products/gallery/1.jpg" },
+      { "type": "video", "src": "assets/images/products/gallery/video.mp4" },
+      { "type": "image", "src": "assets/images/products/gallery/3.jpg" }
+    ]
+  },
+  {
+    "id": 2,
+    "title": "Kviz za doma: FILMI",
+    "shortDesc": "Kvizmojstrov digitalni kviz za doma. Tematski kviz posvečen filmom z zvočnimi in video vsebinami",
+    "price": "19.99",
+    "imgUrl": "assets/images/products/kviz-doma/filmikviz.png",
+    "longDesc": "Pub kviz, ki ga lahko doma igrate s prijatelji in družino. \n\nZa igro potrebujete samo računalnik, dostop do interneta, papirje in pisala. Za izvedbo pub kviza doma samo sledite projekciji. \n\nDo kviza dostopate z mailom. Dobite ga v roku enega delovnega dne po nakupu, ko obdelamo vaše naročilo/plačilo.\n\nNa začetku vas čakajo kratka navodila, nato pa celoten kviz, vključno s posnetki in rešitvami.",
+    "gallery": [
+      { "type": "image", "src": "assets/images/products/gallery/1.jpg" },
+      { "type": "video", "src": "assets/images/products/gallery/video.mp4" },
+      { "type": "image", "src": "assets/images/products/gallery/3.jpg" }
+    ]
+
+  },
+  {
+    "id": 3,
+    "title": "Lov na zaklad: KOPER",
+    "shortDesc": "Sprehodi se čez srednjeveški Koper po sledeh trgovca Marca Da Ponteja.",
+    "price": "39.99",
+    "imgUrl": "assets/images/products/lovnazaklad.jpg",
+    "longDesc": "no s posnetki in rešitvami.",
+    "gallery": [
+      { "type": "image", "src": "assets/images/products/gallery/1.jpg" },
+      { "type": "video", "src": "assets/images/products/gallery/video.mp4" },
+      { "type": "image", "src": "assets/images/products/gallery/3.jpg" }
+    ]
+  }
+]

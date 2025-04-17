@@ -1,10 +1,60 @@
-<div class="store-container">
-  <app-product-card [title]="'Pomladni kviz za doma'" [shortDesc]="'Kvizmojstrov digitalni kviz za doma. Primeren za vse generacije.'" [price]="'19.99'" [imageUrl]="'assets/images/products/kviz-doma/kvizdoma.png'" ></app-product-card>
-  <app-product-card [title]="'Kviz za doma: FILMI'" [shortDesc]="'Kvizmojstrov digitalni kviz za doma. Tematski kviz posvečen filmom z zvočnimi in video vsebinami'" [price]="'19.99'" [imageUrl]="'assets/images/products/kviz-doma/filmikviz.png'" ></app-product-card>
-  <app-product-card [title]="'Lov na zaklad: KOPER'" [shortDesc]="'Sprehodi se čez srednjeveški Koper po sledeh trgovca Marca Da Ponteja.'" [price]="'39.99'" [imageUrl]="'assets/images/products/lovnazaklad.jpg'" ></app-product-card>
-  <!-- &lt;!&ndash; <app-product-card [title]="'Kviz za doma'" [shortDesc]="'pomladni kvizmojstrov kviz za doma'"></app-product-card>
-    <app-product-card [title]="'Kviz za doma'" [shortDesc]="'pomladni kvizmojstrov kviz za doma'"></app-product-card>
-  &lt;!&ndash;  <div class="button-contai&ndash;&gt;ner">
-      <button class="rounded-btn" onclick="window.location.href='https://buy.stripe.com/8wM5kCem0dhT70QfZ0'">Kupi</button>
-    </div>&ndash;&gt;-->
+<div class="store-container" *ngIf="!isMobile || !selectedProduct">
+  <app-product-card
+    *ngFor="let product of products"
+    [title]="product.title"
+    [shortDesc]="product.shortDesc"
+    [price]="product.price"
+    [imageUrl]="product.imgUrl"
+    (click)="openModal(product)"
+  ></app-product-card>
+</div>
+
+
+<!-- MODAL -->
+<div class="modal-container" *ngIf="selectedProduct">
+  <button class="close-btn-mobile"  *ngIf="isMobile" (click)="closeModal()">×</button> <!-- ZDAJ JE TUKAJ -->
+  <div class="modal-backdrop"  *ngIf="!isMobile" (click)="closeModal()"></div>
+  <div [ngClass]="isMobile ? 'modal-body-mobile' : 'modal-body'" *ngIf="selectedProduct">
+    <div class="modal-gallery" *ngIf="selectedProduct">
+      <swiper-container
+        navigation="true"
+        pagination="true"
+        loop="true"
+        style="width: 100%; height: 100%;"
+      >
+        <swiper-slide *ngFor="let media of selectedProduct.gallery">
+          <img
+            *ngIf="media.type === 'image'"
+            [src]="media.src"
+            alt="Product image"
+            style="width: 100%; border-radius: 8px;"
+          />
+          <video
+            *ngIf="media.type === 'video'"
+            [src]="media.src"
+            controls
+            preload="metadata"
+            style="width: 100%; border-radius: 8px;"
+          ></video>
+        </swiper-slide>
+      </swiper-container>
+
+    </div>
+
+    <div class="modal-content">
+      <h2>{{ selectedProduct.title }}</h2>
+      <div class="long-desc">
+        <p *ngFor="let paragraph of selectedProduct.longDesc.split('\n\n')">
+          {{ paragraph }}
+        </p>
+      </div>
+      <div class="modal-bottom">
+        <strong>{{ selectedProduct.price }} €</strong>
+        <button class="buy-btn" onclick="window.location.href='https://buy.stripe.com/8wM5kCem0dhT70QfZ0'">Kupi</button>
+      </div>
+    </div>
+
+    <button *ngIf="!isMobile" class="close-btn" (click)="closeModal()">×</button>
+  </div>
+
 </div>
