@@ -96,7 +96,7 @@
   margin-top: auto;
   display: flex;
   justify-content: space-between;
-  align-items: end;
+  align-items: center;
   font-size: 25px;
   padding-top: 1rem;
   border-top: 1px solid #ded9d3;
@@ -184,6 +184,32 @@ swiper-slide video {
   border-radius: 0 !important;
 }
 
+.discount-line {
+  display: flex;
+  align-items: baseline;
+  gap: 10px;
+}
+
+.discount-price {
+  font-size: 27px;
+  font-weight: 500;
+  color: #000;
+}
+
+.original-price {
+  text-decoration: line-through;
+  color: grey;
+  opacity: 0.7;
+  font-size: 20px;
+}
+
+.discount-percent {
+  color: #a00;
+  font-size: 27px;
+  font-weight: 400;
+}
+
+
 @media (max-width: 768px) {
 
 /*  .classa{
@@ -228,6 +254,7 @@ swiper-slide video {
     cursor: pointer;
     padding: 1rem;
     justify-content: end;
+    background-color: #faf8f6;
   }
 
   .modal-body-mobile {

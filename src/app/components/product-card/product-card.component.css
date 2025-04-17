@@ -41,3 +41,28 @@
   color: #000;
   margin: 0;
 }
+
+.card-discount-line {
+  display: flex;
+  align-items: baseline;
+  gap: 8px;
+}
+
+.card-discount-price {
+  font-size: 1rem;
+  font-weight: bold;
+  color: #000;
+}
+
+.card-original-price {
+  text-decoration: line-through;
+  color: grey;
+  opacity: 0.7;
+  font-size: 1rem;
+}
+
+.card-discount-percent {
+  color: #a00;
+  font-size: 1rem;
+  font-weight: 500;
+}

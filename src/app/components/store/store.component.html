@@ -4,6 +4,9 @@
     [title]="product.title"
     [shortDesc]="product.shortDesc"
     [price]="product.price"
+    [onDiscount]="product.onDiscount"
+    [discountPrice]="product.discountPrice"
+    [discountPercentage]="product.discountPercentage"
     [imageUrl]="product.imgUrl"
     (click)="openModal(product)"
   ></app-product-card>
@@ -48,10 +51,25 @@
           {{ paragraph }}
         </p>
       </div>
-      <div class="modal-bottom">
+  <!--    <div class="modal-bottom">
         <strong>{{ selectedProduct.price }} €</strong>
         <button class="buy-btn" onclick="window.location.href='https://buy.stripe.com/8wM5kCem0dhT70QfZ0'">Kupi</button>
+      </div>-->
+      <div class="modal-bottom">
+        <ng-container *ngIf="selectedProduct.onDiscount; else regularPrice">
+          <div class="discount-line">
+            <span class="original-price">{{ selectedProduct.price }} €</span>
+            <span class="discount-price">{{ selectedProduct.discountPrice }} €</span>
+            <span class="discount-percent"> -{{ selectedProduct.discountPercentage }}%</span>
+          </div>
+        </ng-container>
+        <ng-template #regularPrice>
+          <strong>{{ selectedProduct.price }} €</strong>
+        </ng-template>
+
+        <button class="buy-btn" onclick="window.location.href='https://buy.stripe.com/8wM5kCem0dhT70QfZ0'">Kupi</button>
       </div>
+
     </div>
 
     <button *ngIf="!isMobile" class="close-btn" (click)="closeModal()">×</button>
