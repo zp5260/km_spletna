@@ -11,13 +11,13 @@
 
     <ng-container *ngIf="onDiscount; else regularPrice">
       <div class="card-discount-line">
-        <span class="card-original-price">{{ price }}€</span>
-        <span class="card-discount-price">{{ discountPrice }}€</span>
-        <span class="card-discount-percent">-{{ discountPercentage }}%</span>
+        <span class="card-original-price">{{ price }} €</span>
+        <span class="card-discount-price">{{ discountPrice }} €</span>
+        <span class="card-discount-percent">-{{ discountPercentage }} %</span>
       </div>
     </ng-container>
     <ng-template #regularPrice>
-      <p class="product-price">{{ price }}€</p>
+      <p class="product-price">{{ price }} €</p>
     </ng-template>
   </div>
 

@@ -1,4 +1,5 @@
 <div class="store-container" *ngIf="!isMobile || !selectedProduct">
+ <!-- <h1>Trgovina</h1>-->
   <app-product-card
     *ngFor="let product of products"
     [title]="product.title"
@@ -64,10 +65,16 @@
           </div>
         </ng-container>
         <ng-template #regularPrice>
-          <strong>{{ selectedProduct.price }} €</strong>
+          <span class="price">{{ selectedProduct.price }} €</span>
         </ng-template>
 
+<!--
         <button class="buy-btn" onclick="window.location.href='https://buy.stripe.com/8wM5kCem0dhT70QfZ0'">Kupi</button>
+-->
+<!--
+        <button class="buy-btn" onclick="window.location.href='https://buy.stripe.com/cN25kCdhW1zb70Q003'">Kupi</button>
+-->
+        <button class="buy-btn" (click)="goToStripeLink()">Kupi</button>
       </div>
 
     </div>

@@ -13,5 +13,6 @@ export interface Product {
   imgUrl: string;
   longDesc: string;
   gallery: ProductMedia[];
+  stripeLink: string;
 }
 

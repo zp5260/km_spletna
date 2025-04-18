@@ -41,7 +41,6 @@ export class StoreComponent implements OnInit {
     }
   }
 
-
   openModal(product: Product) {
     this.selectedProduct = product;
   }
@@ -49,4 +48,11 @@ export class StoreComponent implements OnInit {
   closeModal() {
     this.selectedProduct = null;
   }
+
+  goToStripeLink() {
+    if (this.selectedProduct?.stripeLink) {
+      window.open(this.selectedProduct.stripeLink, '_blank'); // ali '_self' za isto okno
+    }
+  }
+
 }

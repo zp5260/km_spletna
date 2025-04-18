@@ -7,45 +7,37 @@
     "onDiscount": true,
     "discountPrice": "14,99",
     "discountPercentage":"25",
-    "imgUrl": "assets/images/products/kviz-doma/kvizdoma.png",
-    "longDesc": "Pub kviz, ki ga lahko doma igrate s prijatelji in družino. \n\nZa igro potrebujete samo računalnik, dostop do interneta, papirje in pisala. Za izvedbo pub kviza doma samo sledite projekciji. \n\nDo kviza dostopate z mailom. Dobite ga v roku enega delovnega dne po nakupu, ko obdelamo vaše naročilo/plačilo.\n\nNa začetku vas čakajo kratka navodila, nato pa celoten kviz, vključno s posnetki in rešitvami. Pub kviz, ki ga lahko doma igrate s prijatelji in družino. \n\nZa igro potrebujete samo računalnik, dostop do interneta, papirje in pisala. Za izvedbo pub kviza doma samo sledite projekciji. \n\nDo kviza dostopate z mailom. Dobite ga v roku enega delovnega dne po nakupu, ko obdelamo vaše naročilo/plačilo.\n\nNa začetku vas čakajo kratka navodila, nato pa celoten kviz, vključno s posnetki in rešitvami. Pub kviz, ki ga lahko doma igrate s prijatelji in družino. \n\nZa igro potrebujete samo računalnik, dostop do interneta, papirje in pisala. Za izvedbo pub kviza doma samo sledite projekciji. \n\nDo kviza dostopate z mailom. Dobite ga v roku enega delovnega dne po nakupu, ko obdelamo vaše naročilo/plačilo.\n\nNa začetku vas čakajo kratka navodila, nato pa celoten kviz, vključno s posnetki in rešitvami.",
+    "imgUrl": "assets/images/products/gallery/pomlad3.jpg",
+    "longDesc": "Popestrite praznični čas s prijatelji in družino z novo različico kviza v udobju dnevne sobe ali sredi prvomajskega piknika 🌼🌸.\n\nPomladni kviz je sestavljen iz 10 različnih tematik in 50 vprašanj, primernih za vse generacije. Vključuje tudi zvočne in video vsebine ter ekskluzivno nagradno igro 🎁.\n\nZa igro potrebujete le računalnik, dostop do interneta, papirje in pisala ✍. Na začetku vas čakajo kratka navodila, nato pa celoten kviz z vsemi posnetki in rešitvami. Samo sledite projekciji in uživajte! 🍻✌🏽\n\n📧 Dostop do kviza (na vaš e-mail) prejmete v roku 24 ur od nakupa.\n\nČe pa si želite igrati hitreje, nam pišete na: kviz.mojster@gmail.com.\n\nKvizi bodo dostopni do 21. 6. 2025.",
     "gallery": [
-      { "type": "image", "src": "assets/images/products/gallery/1.jpg" },
-      { "type": "video", "src": "assets/images/products/gallery/video.mp4" },
-      { "type": "image", "src": "assets/images/products/gallery/3.jpg" }
-    ]
+      { "type": "image", "src": "assets/images/products/gallery/pomlad3.jpg" },
+      { "type": "video", "src": "assets/images/products/gallery/pomladnivideo.mp4" },
+      { "type": "image", "src": "assets/images/products/gallery/pomlad4.jpg" },
+      { "type": "image", "src": "assets/images/products/gallery/pomlad2.jpg" },
+      { "type": "image", "src": "assets/images/products/gallery/pomlad1.jpg" },
+      { "type": "image", "src": "assets/images/products/gallery/pomlad5.jpg" }
+    ],
+    "stripeLink": "https://buy.stripe.com/dR67sK6TyelX0CsbIM"
   },
   {
     "id": 2,
-    "title": "Kviz za doma: FILMI",
-    "shortDesc": "Kvizmojstrov digitalni kviz za doma. Tematski kviz posvečen filmom z zvočnimi in video vsebinami",
-    "price": "19.99",
-    "onDiscount": true,
-    "discountPrice": "14,99",
+    "title": "Paket dveh kvizov",
+    "shortDesc": "Dva digitalna pub kviza za doma po eksluzivni ceni.",
+    "price": "29,99",
+    "onDiscount": false,
+    "discountPrice": "29,99",
     "discountPercentage":"25",
-    "imgUrl": "assets/images/products/kviz-doma/filmikviz.png",
-    "longDesc": "Pub kviz, ki ga lahko doma igrate s prijatelji in družino. \n\nZa igro potrebujete samo računalnik, dostop do interneta, papirje in pisala. Za izvedbo pub kviza doma samo sledite projekciji. \n\nDo kviza dostopate z mailom. Dobite ga v roku enega delovnega dne po nakupu, ko obdelamo vaše naročilo/plačilo.\n\nNa začetku vas čakajo kratka navodila, nato pa celoten kviz, vključno s posnetki in rešitvami.",
-    "gallery": [
-      { "type": "image", "src": "assets/images/products/gallery/1.jpg" },
-      { "type": "video", "src": "assets/images/products/gallery/video.mp4" },
-      { "type": "image", "src": "assets/images/products/gallery/3.jpg" }
-    ]
-
-  },
-  {
-    "id": 3,
-    "title": "Lov na zaklad: KOPER",
-    "shortDesc": "Sprehodi se čez srednjeveški Koper po sledeh trgovca Marca Da Ponteja.",
-    "price": "39.99",
-    "onDiscount": true,
-    "discountPrice": "14,99",
-    "discountPercentage":"25",
-    "imgUrl": "assets/images/products/lovnazaklad.jpg",
-    "longDesc": "no s posnetki in rešitvami.",
-    "gallery": [
-      { "type": "image", "src": "assets/images/products/gallery/1.jpg" },
-      { "type": "video", "src": "assets/images/products/gallery/video.mp4" },
-      { "type": "image", "src": "assets/images/products/gallery/3.jpg" }
-    ]
+    "imgUrl": "assets/images/products/kviz-doma/pomladni2.png",
+    "longDesc": "Popestrite praznični čas ali piknik s prijatelji in družino z ekskluzivnim paketom dveh kvizov, ki sta popolna za vse generacije! 🧠🍹\n\nNamesto enega – prejmete kar dva različna kviza z 20 tematikami in približno 100 različnimi vprašanji, zvočnimi in video vsebinami ter eksluzivno nagradno igro! 🎬🔊🎁 \n\nZa igro potrebujete samo računalnik, dostop do interneta, papirje in pisala.✍️ Na začetku vas čakajo kratka navodila, nato pa celoten kviz, vključno s posnetki in rešitvami. Za izvedbo pub kviza samo sledite projekciji. \n\n*Dostop do kviza (prek vašega maila) prejmete v roku 24 ur od nakupa. Za hitrejši dostop pišite na kviz.mojster@gmail.com. 📩\n\nKvizi bodo dostopni do 21. 6. 2025.\n\n*Paket ni primeren za tiste, ki so se udeležili Kviz Mojstrovega kviza 2. 4. 2024 v Maister pubu.",    "gallery": [
+      { "type": "image", "src": "assets/images/products/gallery/pomladni2kviza.png" },
+      { "type": "video", "src": "assets/images/products/gallery/pomladnivideo.mp4" },
+      { "type": "image", "src": "assets/images/products/gallery/pomlad3.jpg" },
+      { "type": "image", "src": "assets/images/products/gallery/pomlad4.jpg" },
+      { "type": "image", "src": "assets/images/products/gallery/pomlad2.jpg" },
+      { "type": "image", "src": "assets/images/products/gallery/pomlad1.jpg" },
+      { "type": "image", "src": "assets/images/products/gallery/pomlad5.jpg" }
+    ],
+    "stripeLink": "https://buy.stripe.com/28oaEWem01zb5WM6ot"
   }
+
 ]

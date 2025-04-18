@@ -1,0 +1,42 @@
+/*
+.thank-you-container {
+  text-align: center;
+  margin-top: 100px;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+  background-color: #faf8f6;
+  color: black;
+}
+*/
+
+.thank-you-container {
+  height: calc(100vh - 20vh); /* prilagodi glede na višino headerja + footerja */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: #faf8f6; /* ali barva ozadja po želji */
+  padding: 40px 20px;
+  color: black;
+}
+
+
+.thank-you-container h1 {
+  font-size: 2.5rem;
+  color: black;
+}
+
+.thank-you-container p {
+  font-size: 1.2rem;
+  margin: 10px 0;
+}
+
+/*@media (max-width: 800px) {
+  .thank-you-container {
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    padding-top: 15%;
+  }
+}*/
