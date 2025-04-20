@@ -4,20 +4,19 @@
     "title": "Pomladni kviz za doma",
     "shortDesc": "Kvizmojstrov digitalni kviz za doma. Primeren za vse generacije.",
     "price": "19.99",
-    "onDiscount": true,
+    "onDiscount": false,
     "discountPrice": "14,99",
     "discountPercentage":"25",
     "imgUrl": "assets/images/products/gallery/pomlad3.jpg",
-    "longDesc": "Popestrite praznični čas s prijatelji in družino z novo različico kviza v udobju dnevne sobe ali sredi prvomajskega piknika 🌼🌸.\n\nPomladni kviz je sestavljen iz 10 različnih tematik in 50 vprašanj, primernih za vse generacije. Vključuje tudi zvočne in video vsebine ter ekskluzivno nagradno igro 🎁.\n\nZa igro potrebujete le računalnik, dostop do interneta, papirje in pisala ✍. Na začetku vas čakajo kratka navodila, nato pa celoten kviz z vsemi posnetki in rešitvami. Samo sledite projekciji in uživajte! 🍻✌🏽\n\n📧 Dostop do kviza (na vaš e-mail) prejmete v roku 24 ur od nakupa.\n\nČe pa si želite igrati hitreje, nam pišete na: kviz.mojster@gmail.com.\n\nKvizi bodo dostopni do 21. 6. 2025.",
+    "longDesc": "Popestrite praznični čas s prijatelji in družino z novo različico kviza v udobju dnevne sobe ali sredi prvomajskega piknika 🌼🌸.\n\nPomladni kviz je sestavljen iz 10 različnih tematik in 50 vprašanj, primernih za vse generacije. 2 tematiki sta pomladni, ostale splošne. \n\nVključuje tudi zvočne in slikovne vsebine ter ekskluzivno nagradno igro 🎁.\n\nZa igro potrebujete le računalnik, dostop do interneta, papirje in pisala ✍. Na začetku vas čakajo kratka navodila, nato pa celoten kviz z vsemi posnetki in rešitvami. Samo sledite projekciji in uživajte! 🍻✌🏽\n\n📧 Dostop do kviza (na vaš e-mail) prejmete v roku 24 ur od nakupa.\n\nČe pa si želite igrati hitreje, nam pišete na: kviz.mojster@gmail.com.\n\nKvizi bodo dostopni do 21. 6. 2025.",
     "gallery": [
       { "type": "image", "src": "assets/images/products/gallery/pomlad3.jpg" },
-      { "type": "video", "src": "assets/images/products/gallery/pomladnivideo.mp4" },
       { "type": "image", "src": "assets/images/products/gallery/pomlad4.jpg" },
       { "type": "image", "src": "assets/images/products/gallery/pomlad2.jpg" },
       { "type": "image", "src": "assets/images/products/gallery/pomlad1.jpg" },
       { "type": "image", "src": "assets/images/products/gallery/pomlad5.jpg" }
     ],
-    "stripeLink": "https://buy.stripe.com/dR67sK6TyelX0CsbIM"
+    "stripeLink": "https://buy.stripe.com/cN27sKa5Kgu570Q14a"
   },
   {
     "id": 2,
@@ -28,16 +27,33 @@
     "discountPrice": "29,99",
     "discountPercentage":"25",
     "imgUrl": "assets/images/products/kviz-doma/pomladni2.png",
-    "longDesc": "Popestrite praznični čas ali piknik s prijatelji in družino z ekskluzivnim paketom dveh kvizov, ki sta popolna za vse generacije! 🧠🍹\n\nNamesto enega – prejmete kar dva različna kviza z 20 tematikami in približno 100 različnimi vprašanji, zvočnimi in video vsebinami ter eksluzivno nagradno igro! 🎬🔊🎁 \n\nZa igro potrebujete samo računalnik, dostop do interneta, papirje in pisala.✍️ Na začetku vas čakajo kratka navodila, nato pa celoten kviz, vključno s posnetki in rešitvami. Za izvedbo pub kviza samo sledite projekciji. \n\n*Dostop do kviza (prek vašega maila) prejmete v roku 24 ur od nakupa. Za hitrejši dostop pišite na kviz.mojster@gmail.com. 📩\n\nKvizi bodo dostopni do 21. 6. 2025.\n\n*Paket ni primeren za tiste, ki so se udeležili Kviz Mojstrovega kviza 2. 4. 2024 v Maister pubu.",    "gallery": [
-      { "type": "image", "src": "assets/images/products/gallery/pomladni2kviza.png" },
-      { "type": "video", "src": "assets/images/products/gallery/pomladnivideo.mp4" },
-      { "type": "image", "src": "assets/images/products/gallery/pomlad3.jpg" },
+    "longDesc": "Popestrite čas s prijatelji in družino z ekskluzivnim paketom dveh kvizov, ki sta popolna za vse generacije! 🧠🍹\n\nNamesto enega – prejmete kar dva različna kviza z 20 tematikami in približno 100 različnimi vprašanji, zvočnimi in video vsebinami ter eksluzivno nagradno igro! 🎬🔊🎁 \n\nOba kviza sta splošna in primerna za vse interesne skupine. Pomladni kviz vsebuje dve pomladno obarvani tematiki. \n\nZa igro potrebujete samo računalnik, dostop do interneta, papirje in pisala.✍️ Na začetku vas čakajo kratka navodila, nato pa celoten kviz, vključno s posnetki in rešitvami. Za izvedbo pub kviza samo sledite projekciji. \n\n*Dostop do kviza (prek vašega maila) prejmete v roku 24 ur od nakupa. Za hitrejši dostop pišite na kviz.mojster@gmail.com. 📩\n\nKvizi bodo dostopni do 21. 6. 2025.\n\n*Paket ni primeren za tiste, ki so se udeležili Kviz Mojstrovega kviza 2. 4. 2024 v Maister pubu.",
+    "gallery": [
       { "type": "image", "src": "assets/images/products/gallery/pomlad4.jpg" },
       { "type": "image", "src": "assets/images/products/gallery/pomlad2.jpg" },
+      { "type": "image", "src": "assets/images/products/gallery/pomlad3.jpg" },
+      { "type": "image", "src": "assets/images/products/gallery/pomladni2kviza.png" },
       { "type": "image", "src": "assets/images/products/gallery/pomlad1.jpg" },
       { "type": "image", "src": "assets/images/products/gallery/pomlad5.jpg" }
     ],
     "stripeLink": "https://buy.stripe.com/28oaEWem01zb5WM6ot"
+  },
+  {
+    "id": 3,
+    "title": "Splošni kviz za doma",
+    "shortDesc": "Kvizmojstrov digitalni kviz za doma. Primeren za vse generacije.",
+    "price": "19.99",
+    "onDiscount": false,
+    "discountPrice": "14,99",
+    "discountPercentage":"25",
+    "imgUrl": "assets/images/products/kviz-doma/splošnikviz.png",
+    "longDesc": "Popestrite čas s prijatelji ali družino z novo različico kviza v udobju dnevne sobe ali sredi prvomajskega piknika 🌼🌸.\n\nSplošni kviz je sestavljen iz 10 različnih tematik in približno 50 vprašanj, primernih za vse generacije. Vključuje tudi zvočne in video vsebine ter ekskluzivno nagradno igro 🎁.\n\nZa igro potrebujete le računalnik, dostop do interneta, papirje in pisala ✍. Na začetku vas čakajo kratka navodila, nato pa celoten kviz z vsemi posnetki in rešitvami. Samo sledite projekciji in uživajte! 🍻✌🏽\n\n*Kviz ni primeren za tiste, ki so se udeležili Kviz Mojstrovega kviza 2. 4. 2024 v Maister pubu.\n\n📧 Dostop do kviza (na vaš e-mail) prejmete v roku 24 ur od nakupa.\n\nČe pa si želite igrati hitreje, nam pišete na: kviz.mojster@gmail.com.\n\nKvizi bodo dostopni do 21. 6. 2025.",
+    "gallery": [
+      { "type": "image", "src": "assets/images/products/gallery/pomlad1.jpg" },
+      { "type": "image", "src": "assets/images/products/gallery/pomlad3.jpg" },
+      { "type": "image", "src": "assets/images/products/gallery/pomlad4.jpg" },
+      { "type": "image", "src": "assets/images/products/gallery/pomlad5.jpg" }
+    ],
+    "stripeLink": "https://buy.stripe.com/aEUeVcgu8elXeti4gn"
   }
-
 ]

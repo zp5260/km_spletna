@@ -24,7 +24,9 @@
 
 .thank-you-container h1 {
   font-size: 2.5rem;
+  font-family: "DM Serif Text", serif;
   color: black;
+   font-weight: 300;
 }
 
 .thank-you-container p {

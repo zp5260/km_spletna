@@ -20,8 +20,9 @@
   font-style: normal;
 }
 
+/*preimenuj*/
 .tajawal-regular {
-  font-family: "Tajawal", serif;
+  font-family: 'Didact Gothic', sans-serif;
   font-weight: 400;
   font-style: normal;
 }
@@ -29,7 +30,7 @@
 html, body, form, fieldset, table, tr, td, img {
   margin: 0;
   padding: 0;
-  font: 100%/150% "Tajawal", serif
+  font: 100%/150% 'Didact Gothic', sans-serif
 }
 
 input, button, select, textarea, optgroup, option {
