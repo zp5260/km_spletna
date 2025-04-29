@@ -2,8 +2,8 @@
   {
     "id": 1,
     "title": "Pomladni kviz za doma",
-    "shortDesc": "Kvizmojstrov digitalni kviz za doma. Primeren za vse generacije.",
-    "price": "19.99",
+    "shortDesc": "Kviz Mojstrov digitalni kviz za doma. Primeren za vse generacije.",
+    "price": "19,99",
     "onDiscount": false,
     "discountPrice": "14,99",
     "discountPercentage":"25",
@@ -41,8 +41,8 @@
   {
     "id": 3,
     "title": "Splošni kviz za doma",
-    "shortDesc": "Kvizmojstrov digitalni kviz za doma. Primeren za vse generacije.",
-    "price": "19.99",
+    "shortDesc": "Kviz Mojstrov digitalni kviz za doma. Primeren za vse generacije.",
+    "price": "19,99",
     "onDiscount": false,
     "discountPrice": "14,99",
     "discountPercentage":"25",
