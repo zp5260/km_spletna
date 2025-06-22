@@ -1,5 +1,25 @@
 [
   {
+    "id": 0,
+    "title": "Lov na zaklad: Beneška skrivnost Kopra",
+    "shortDesc": "Sprehodite se po sledeh srednjeveškega beneškega trgovca in odkrijte skrivnosti koprskih ulic.",
+    "price": "34,90",
+    "onDiscount": false,
+    "discountPrice": "34,90",
+    "discountPercentage":"0",
+    "imgUrl": "assets/images/products/lov-na-zaklad/lovtavernaog.jpg",
+    "longDesc": "Popestrite praznični čas s prijatelji in družino z novo različico kviza v udobju dnevne sobe ali sredi prvomajskega piknika 🌼🌸.\n\nPomladni kviz je sestavljen iz 10 različnih tematik in 50 vprašanj, primernih za vse generacije. 2 tematiki sta pomladni, ostale splošne. \n\nVključuje tudi zvočne in slikovne vsebine ter ekskluzivno nagradno igro 🎁.\n\nZa igro potrebujete le računalnik, dostop do interneta, papirje in pisala ✍. Na začetku vas čakajo kratka navodila, nato pa celoten kviz z vsemi posnetki in rešitvami. Samo sledite projekciji in uživajte! 🍻✌🏽\n\n📧 Dostop do kviza (na vaš e-mail) prejmete v roku 24 ur od nakupa.\n\nČe pa si želite igrati hitreje, nam pišete na: kviz.mojster@gmail.com.\n\nKvizi bodo dostopni do 25. 6. 2025.",
+    "gallery": [
+      { "type": "image", "src": "assets/images/products/lov-na-zaklad/lovdnevnik.jpg" },
+      { "type": "image", "src": "assets/images/products/lov-na-zaklad/lovmapa.jpg" },
+      { "type": "image", "src": "assets/images/products/lov-na-zaklad/lovtaverna.jpg" },
+      { "type": "image", "src": "assets/images/products/lov-na-zaklad/lovcevljarska.jpg" },
+      { "type": "image", "src": "assets/images/products/lov-na-zaklad/lovcarpaccio.jpg" },
+      { "type": "image", "src": "assets/images/products/lov-na-zaklad/lovulica.jpg" }
+    ],
+    "stripeLink": "https://buy.stripe.com/3cI14p8begOU8WH4XX5J60a"
+  },
+  {
     "id": 1,
     "title": "Pomladni kviz za doma",
     "shortDesc": "Kviz Mojstrov digitalni kviz za doma. Primeren za vse generacije.",
