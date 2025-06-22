@@ -1,6 +1,7 @@
 import { Component, OnInit, CUSTOM_ELEMENTS_SCHEMA, NO_ERRORS_SCHEMA } from '@angular/core';
 import { ProductCardComponent } from '../product-card/product-card.component';
 import { Product } from '../../models/product.model';
+import { TextPart } from '../../models/product.model';
 
 import { HttpClient } from '@angular/common/http';
 import { CommonModule } from '@angular/common';
@@ -40,6 +41,27 @@ export class StoreComponent implements OnInit {
       });
     }
   }
+
+/*   getParagraphs(descArray: TextPart[]): TextPart[] {
+    const paragraphs: TextPart[] = [];
+    let currentParagraph: TextPart[] = [];
+
+    for (const part of descArray) {
+      currentParagraph.push(part);
+      if (part.newLine) {
+        paragraphs.push(currentParagraph);
+        currentParagraph = [];
+      }
+  }
+
+  // Če zadnji del ni imel newLine: true, ga še vseeno dodamo
+  if (currentParagraph.length > 0) {
+    paragraphs.push(currentParagraph);
+  }
+
+  return paragraphs;
+} */
+
 
   openModal(product: Product) {
     this.selectedProduct = product;

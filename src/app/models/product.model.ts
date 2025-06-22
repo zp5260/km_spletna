@@ -3,6 +3,12 @@ export interface ProductMedia {
   src: string;
 }
 
+export interface TextPart {
+  isBold: boolean;
+  newLine: boolean;
+  text: string;
+}
+
 export interface Product {
   title: string;
   shortDesc: string;
@@ -11,6 +17,8 @@ export interface Product {
   discountPrice: string;
   discountPercentage: string;
   imgUrl: string;
+  isDescArray: boolean;
+  longDescArray: TextPart[];
   longDesc: string;
   gallery: ProductMedia[];
   stripeLink: string;

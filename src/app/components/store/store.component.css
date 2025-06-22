@@ -90,6 +90,7 @@
   font-family: "DM Serif Text", serif;
   font-weight: 40;
   font-style: normal;
+  line-height: 1;
 }
 
 .modal-bottom {
@@ -131,7 +132,7 @@
 
 .modal-gallery img {
   width: 100%;
-  object-fit: cover;
+  object-fit: contain;
 }
 
 swiper {
@@ -187,7 +188,7 @@ swiper-slide img,
 swiper-slide video {
   width: 100%;
   height: 100%;
-  object-fit: cover;
+  object-fit: contain;
   border-radius: 0 !important;
 }
 
@@ -321,7 +322,7 @@ swiper-slide video {
   swiper-slide img,
   swiper-slide video {
     height: 100%;
-    object-fit: cover;
+    object-fit: contain;
   }
 }
 

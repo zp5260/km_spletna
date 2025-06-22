@@ -48,10 +48,35 @@
     <div class="modal-content">
       <h2>{{ selectedProduct.title }}</h2>
       <div class="long-desc">
-        <p *ngFor="let paragraph of selectedProduct.longDesc.split('\n\n')">
-          {{ paragraph }}
-        </p>
+        <ng-container *ngIf="selectedProduct.isDescArray; else stringDesc">
+          <ng-container *ngFor="let textPart of selectedProduct.longDescArray">
+            <span>
+              <ng-container *ngIf="textPart.isBold; else normalText">
+                <strong>{{ textPart.text }}</strong>
+              </ng-container>
+              <ng-template #normalText>{{ textPart.text }}</ng-template>
+
+                          <!-- Dodaj presledek ali prelom -->
+              <ng-container *ngIf="textPart.newLine; else space">
+                <br><br>
+              </ng-container>
+              <ng-template #space>&nbsp;</ng-template>
+            </span>
+          </ng-container>
+        </ng-container>
+
+        <ng-template #stringDesc>
+          <p *ngFor="let paragraph of selectedProduct.longDesc.split('\n\n')">
+            {{ paragraph }}
+          </p>
+        </ng-template>
       </div>
+
+      <!--      <div class="long-desc">
+              <p *ngFor="let paragraph of selectedProduct.longDesc.split('\n\n')">
+                {{ paragraph }}
+              </p>
+            </div>-->
   <!--    <div class="modal-bottom">
         <strong>{{ selectedProduct.price }} €</strong>
         <button class="buy-btn" onclick="window.location.href='https://buy.stripe.com/8wM5kCem0dhT70QfZ0'">Kupi</button>
