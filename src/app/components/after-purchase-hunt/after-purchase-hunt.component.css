@@ -37,9 +37,6 @@
 
 @media (max-width: 800px) {
   .thank-you-container {
-    display: flex;
-    flex-direction: column;
-    height: auto;
-    padding-top: 15%;
+      padding: 40px 20px;
   }
 }
