@@ -4,6 +4,7 @@ import { AboutUsComponent } from './components/about-us/about-us.component';
 import { ContactUsComponent } from './components/contact-us/contact-us.component';
 import {HireUsComponent} from "./components/hire-us/hire-us.component";
 import {StoreComponent} from "./components/store/store.component";
+import {SpecialStoreComponent} from "./components/special-store/special-store.component";
 import {AfterPurchaseComponent} from "./components/after-purchase/after-purchase.component";
 
 export const routes: Routes = [
@@ -12,6 +13,7 @@ export const routes: Routes = [
   { path: 'hire-us', component: HireUsComponent },
   { path: 'contact-us', component: ContactUsComponent },
   { path: 'store', component: StoreComponent },
+  { path: 'store/special', component: SpecialStoreComponent },
   { path: 'after-purchase', component: AfterPurchaseComponent },
   { path: '', redirectTo: '/about-us', pathMatch: 'full' }, // privzeta stran
   { path: '**', redirectTo: 'contact-us' } // če je napačna pot
