@@ -23,5 +23,15 @@
         "part10": "Do you dare to follow in the footsteps of the Venetian merchant Marco da Ponte and uncover the treasure?"
       }
     }
+  },
+  "afterPurchase": {
+    "thankYou": "Thank you!",
+    "text1": "By making this purchase, you have supported two local entrepreneurs — and we truly appreciate it.",
+    "text2": "You can pick up the treasure hunt envelope at the Stellaris store on Čevljarska Street in Koper.\n\nTo receive it, please show the confirmation email that was sent to your email address. If you can't find the message, check your spam folder.",
+    "textSpecial": "Alternatively, if you're staying in an apartment, the host may have the envelope ready for you there.",
+    "text3": "The game begins right there on Čevljarska Street.",
+    "locationLink": "Store location link",
+    "mailText": "For any questions, feel free to contact us at",
+    "goodLuck": "Good luck chasing the treasure! 🗝️"
   }
 }

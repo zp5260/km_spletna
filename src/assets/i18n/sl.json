@@ -23,5 +23,15 @@
         "part10": "Si upate podati po stopinjah beneškega trgovca Marca da Ponteja in odkriti zaklad?"
       }
     }
+  },
+  "afterPurchase": {
+    "thankYou": "Iskrena hvala!",
+    "text1": "Z nakupom ste podprli lokalni podjetnici, ki to zelo ceniva.",
+    "text2": "Kuverto z lovom na zaklad lahko prevzamete v trgovini Stellaris na Čevljarski ulici v Kopru.\n\n Ob prevzemu pokažite potrdilo o nakupu, ki ste ga prejeli na svoj elektronski naslov.",
+    "textSpecial": "Če bivate v apartmaju, lahko kuverto prevzamete tudi pri vašem gostitelju.",
+    "text3": "Na Čevljarski ulici se sama igra tudi prične. ",
+    "locationLink": "Povezava do lokacije trgovine",
+    "mailText": "Za dodatna vprašanja nam lahko pišete na",
+    "goodLuck": "Vso srečo pri iskanju zaklada! \uD83D\uDDDD️"
   }
 }

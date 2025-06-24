@@ -6,6 +6,8 @@ import {HireUsComponent} from "./components/hire-us/hire-us.component";
 import {StoreComponent} from "./components/store/store.component";
 import {SpecialStoreComponent} from "./components/special-store/special-store.component";
 import {AfterPurchaseComponent} from "./components/after-purchase/after-purchase.component";
+import {AfterPurchaseHuntComponent} from "./components/after-purchase-hunt/after-purchase-hunt.component";
+import {AfterPurchaseHuntSpecialComponent} from "./components/after-purchase-hunt-special/after-purchase-hunt-special.component";
 
 export const routes: Routes = [
   { path: 'about-us', component: AboutUsComponent },
@@ -15,6 +17,8 @@ export const routes: Routes = [
   { path: 'store', component: StoreComponent },
   { path: 'store/special', component: SpecialStoreComponent },
   { path: 'after-purchase', component: AfterPurchaseComponent },
+  { path: 'after-purchase-hunt', component: AfterPurchaseHuntComponent },
+  { path: 'after-purchase-hunt-special', component: AfterPurchaseHuntSpecialComponent },
   { path: '', redirectTo: '/about-us', pathMatch: 'full' }, // privzeta stran
   { path: '**', redirectTo: 'contact-us' } // če je napačna pot
 ];

@@ -6,7 +6,7 @@
   align-items: center;
   text-align: center;
   background-color: #faf8f6; /* ali barva ozadja po želji */
-  padding: 40px 20px;
+  padding: 40px 20%;
   color: black;
 }
 
@@ -21,13 +21,24 @@
 .thank-you-container p {
   font-size: 1.2rem;
   margin: 10px 0;
+
 }
 
-/*@media (max-width: 800px) {
+.thank-you-container a {
+  color: #4a90e2; /* temno pastelno modra */
+  text-decoration: underline;
+  transition: color 0.3s ease;
+}
+
+.thank-you-container a:hover {
+  color: #366fb3; /* malo temnejša ob hoverju */
+}
+
+@media (max-width: 800px) {
   .thank-you-container {
     display: flex;
     flex-direction: column;
     height: auto;
     padding-top: 15%;
   }
-}*/
+}
