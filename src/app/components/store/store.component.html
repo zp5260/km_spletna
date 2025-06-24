@@ -2,8 +2,8 @@
  <!-- <h1>Trgovina</h1>-->
   <app-product-card
     *ngFor="let product of products"
-    [title]="product.title"
-    [shortDesc]="product.shortDesc"
+    [title]="product.title | translate"
+    [shortDesc]="product.shortDesc | translate"
     [price]="product.price"
     [onDiscount]="product.onDiscount"
     [discountPrice]="product.discountPrice"
@@ -46,15 +46,15 @@
     </div>
 
     <div class="modal-content">
-      <h2>{{ selectedProduct.title }}</h2>
+      <h2>{{ selectedProduct.title | translate }}</h2>
       <div class="long-desc">
         <ng-container *ngIf="selectedProduct.isDescArray; else stringDesc">
           <ng-container *ngFor="let textPart of selectedProduct.longDescArray">
             <span>
               <ng-container *ngIf="textPart.isBold; else normalText">
-                <strong>{{ textPart.text }}</strong>
+                <strong>{{ textPart.text | translate }}</strong>
               </ng-container>
-              <ng-template #normalText>{{ textPart.text }}</ng-template>
+              <ng-template #normalText>{{ textPart.text | translate }}</ng-template>
 
                           <!-- Dodaj presledek ali prelom -->
               <ng-container *ngIf="textPart.newLine; else space">
@@ -99,7 +99,7 @@
 <!--
         <button class="buy-btn" onclick="window.location.href='https://buy.stripe.com/cN25kCdhW1zb70Q003'">Kupi</button>
 -->
-        <button class="buy-btn" (click)="goToStripeLink()">Kupi</button>
+        <button class="buy-btn" (click)="goToStripeLink()">{{ 'store.buy' | translate }}</button>
       </div>
 
     </div>

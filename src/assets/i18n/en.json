@@ -1,0 +1,27 @@
+{
+  "header": {
+    "aboutUs": "About Us",
+    "hireUs": "Hire Us",
+    "store": "Store",
+    "contact": "Contact us"
+  },
+  "store": {
+    "buy": "Buy",
+    "treasureHunt": {
+      "title": "Treasure Hunt: The Venetian Secret of Koper",
+      "shortDesc": "Follow in the footsteps of a medieval Venetian merchant and uncover the secrets of Koper's streets",
+      "longDesc": {
+        "part1": "The treasure hunt will lead you through the streets of Koper, one of the oldest towns in Slovenia. Through fun challenges, you will",
+        "part2": "uncover clues left by the Venetian merchant Marco da Ponte,",
+        "part3": "who mysteriously left the town in 1698.",
+        "part4": "Legend has it that in his haste, he left behind a hidden treasure – a part of his wealth he couldn’t take with him.",
+        "part5": "While discovering centuries-old secrets, you'll get to know the sights and curiosities of Koper’s old town.",
+        "part6": "How does the treasure hunt work?",
+        "part7": "Purchase the treasure hunt by clicking the BUY button below. With the confirmation you receive via email, you can",
+        "part8": "pick up the treasure hunt package at the Stellaris store on Čevljarska Street,",
+        "part9": "the oldest and most famous shopping street in Koper. Everything you need for the challenge will be inside a large envelope. The instructions will guide you through tasks located throughout Koper's historic town center. If you get stuck, you can use the included hints to help solve the puzzles.",
+        "part10": "Do you dare to follow in the footsteps of the Venetian merchant Marco da Ponte and uncover the treasure?"
+      }
+    }
+  }
+}
