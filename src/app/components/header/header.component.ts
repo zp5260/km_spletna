@@ -1,9 +1,8 @@
-import {RouterLink, RouterLinkActive} from "@angular/router";
-import { TranslateService } from '@ngx-translate/core';
-import { TranslateModule } from '@ngx-translate/core';
 import { Component, Inject, PLATFORM_ID, OnInit } from '@angular/core';
 import { isPlatformBrowser } from '@angular/common';
-
+import { TranslateService } from '@ngx-translate/core';
+import { RouterLink, RouterLinkActive } from '@angular/router';
+import { TranslateModule } from '@ngx-translate/core';
 
 @Component({
   selector: 'app-header',
@@ -16,7 +15,11 @@ import { isPlatformBrowser } from '@angular/common';
   templateUrl: './header.component.html',
   styleUrl: './header.component.css'
 })
-export class HeaderComponent implements OnInit{
+export class HeaderComponent implements OnInit {
+  menuValue: boolean = false;
+  menuIcon: string = 'bi bi-list';
+  currentLang: 'sl' | 'en' = 'sl';
+
   constructor(
     private translate: TranslateService,
     @Inject(PLATFORM_ID) private platformId: Object
@@ -24,21 +27,27 @@ export class HeaderComponent implements OnInit{
 
   ngOnInit(): void {
     if (isPlatformBrowser(this.platformId)) {
+      const savedLang = localStorage.getItem('lang');
       const browserLang = navigator.language;
+      const langToUse = savedLang || (browserLang.startsWith('sl') ? 'sl' : 'en');
+
+      this.currentLang = langToUse as 'sl' | 'en';
       this.translate.setDefaultLang('sl');
-      this.translate.use(browserLang.startsWith('sl') ? 'sl' : 'en');
+      this.translate.use(this.currentLang);
     } else {
-      // Fallback jezik na strežni strani
       this.translate.setDefaultLang('sl');
       this.translate.use('sl');
     }
   }
 
-  menuValue: boolean = false;
-  menuIcon: string='bi bi-list';
+  setLanguage(lang: 'sl' | 'en') {
+    this.currentLang = lang;
+    this.translate.use(lang);
+    localStorage.setItem('lang', lang);
+  }
 
   openMenu() {
-    this.menuValue  = !this.menuValue;
+    this.menuValue = !this.menuValue;
     this.menuIcon = this.menuValue ? 'bi bi-x' : 'bi bi-list';
   }
 

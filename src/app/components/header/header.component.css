@@ -60,6 +60,38 @@ header {
   display: none; /* Hide for now, only show on smaller screens if needed */
 }
 
+.language-switcher {
+  display: flex;
+  gap: 0.5rem;
+  align-items: center;
+  padding-left: 1rem;
+  color: white;
+}
+
+
+.language-switcher button {
+  background: none;
+  border: none;
+  color: white;
+  cursor: pointer;
+  opacity: 0.6;
+  transition: opacity 0.3s ease;
+  display: flex;
+  align-items: center;
+}
+
+.language-switcher button img {
+  padding-right: 8px;
+  width: 20px;
+  object-fit: contain;
+}
+.language-switcher button.active-lang {
+  opacity: 1;
+  text-decoration: underline;
+}
+
+
+
 /* Media query for small screens */
 @media (max-width: 800px) {
   header {
