@@ -1,0 +1,123 @@
+[
+  {
+    "id": 0,
+    "title": "Harry Potter pub kviz (ponovitev)",
+    "shortDesc": "Pridi v Kino Bežigrad na Harry Potter tematski pub kviz. Primeren za vse generacije",
+    "date": "Ponedeljek, 21. 7. 2025",
+    "time": "18:00",
+    "location": "Kino Bežigrad",
+    "price": "24,00",
+    "imgUrl": "assets/images/tickets/hp1.jpg",
+    "isDescArray": true,
+    "longDescArray": [
+      { "isBold": false, "newLine": false, "text": "store.treasureHunt.longDesc.part1" },
+      { "isBold": true,  "newLine": false, "text": "store.treasureHunt.longDesc.part2" },
+      { "isBold": false, "newLine": true,  "text": "store.treasureHunt.longDesc.part3" },
+      { "isBold": false, "newLine": false, "text": "store.treasureHunt.longDesc.part4" },
+      { "isBold": true,  "newLine": true,  "text": "store.treasureHunt.longDesc.part5" },
+      { "isBold": true,  "newLine": true,  "text": "store.treasureHunt.longDesc.part6" },
+      { "isBold": false, "newLine": false, "text": "store.treasureHunt.longDesc.part7" },
+      { "isBold": true,  "newLine": false, "text": "store.treasureHunt.longDesc.part8" },
+      { "isBold": false, "newLine": true,  "text": "store.treasureHunt.longDesc.part9" },
+      { "isBold": true,  "newLine": true,  "text": "store.treasureHunt.longDesc.part10" }
+    ],
+    "stripeLink": "https://buy.stripe.com/28EdRbajmdCIeh10HH5J60e"
+  },
+  {
+    "id": 1,
+    "title": "Športni pub kviz v Neks Lounge Baru",
+    "shortDesc": "Pridi v Kino Bežigrad na Harry Potter tematski pub kviz. Primeren za vse generacije",
+    "date": "Ponedeljek, 21. 7. 2025",
+    "time": "18:00",
+    "location": "Kino Bežigrad",
+    "price": "24,00",
+    "imgUrl": "assets/images/tickets/hp1.jpg",
+    "isDescArray": true,
+    "longDescArray": [
+      { "isBold": false, "newLine": false, "text": "store.treasureHunt.longDesc.part1" },
+      { "isBold": true,  "newLine": false, "text": "store.treasureHunt.longDesc.part2" },
+      { "isBold": false, "newLine": true,  "text": "store.treasureHunt.longDesc.part3" },
+      { "isBold": false, "newLine": false, "text": "store.treasureHunt.longDesc.part4" },
+      { "isBold": true,  "newLine": true,  "text": "store.treasureHunt.longDesc.part5" },
+      { "isBold": true,  "newLine": true,  "text": "store.treasureHunt.longDesc.part6" },
+      { "isBold": false, "newLine": false, "text": "store.treasureHunt.longDesc.part7" },
+      { "isBold": true,  "newLine": false, "text": "store.treasureHunt.longDesc.part8" },
+      { "isBold": false, "newLine": true,  "text": "store.treasureHunt.longDesc.part9" },
+      { "isBold": true,  "newLine": true,  "text": "store.treasureHunt.longDesc.part10" }
+    ],
+    "stripeLink": "https://buy.stripe.com/28EdRbajmdCIeh10HH5J60e"
+  },
+  {
+    "id": 2,
+    "title": "Športni pub kviz v Neks Lounge Baru",
+    "shortDesc": "Pridi v Kino Bežigrad na Harry Potter tematski pub kviz. Primeren za vse generacije",
+    "date": "Ponedeljek, 21. 7. 2025",
+    "time": "18:00",
+    "location": "Kino Bežigrad",
+    "price": "24,00",
+    "imgUrl": "assets/images/tickets/hp1.jpg",
+    "isDescArray": true,
+    "longDescArray": [
+      { "isBold": false, "newLine": false, "text": "store.treasureHunt.longDesc.part1" },
+      { "isBold": true,  "newLine": false, "text": "store.treasureHunt.longDesc.part2" },
+      { "isBold": false, "newLine": true,  "text": "store.treasureHunt.longDesc.part3" },
+      { "isBold": false, "newLine": false, "text": "store.treasureHunt.longDesc.part4" },
+      { "isBold": true,  "newLine": true,  "text": "store.treasureHunt.longDesc.part5" },
+      { "isBold": true,  "newLine": true,  "text": "store.treasureHunt.longDesc.part6" },
+      { "isBold": false, "newLine": false, "text": "store.treasureHunt.longDesc.part7" },
+      { "isBold": true,  "newLine": false, "text": "store.treasureHunt.longDesc.part8" },
+      { "isBold": false, "newLine": true,  "text": "store.treasureHunt.longDesc.part9" },
+      { "isBold": true,  "newLine": true,  "text": "store.treasureHunt.longDesc.part10" }
+    ],
+    "stripeLink": "https://buy.stripe.com/28EdRbajmdCIeh10HH5J60e"
+  },
+  {
+    "id": 4,
+    "title": "Športni pub kviz v Neks Lounge Baru",
+    "shortDesc": "Pridi v Kino Bežigrad na Harry Potter tematski pub kviz. Primeren za vse generacije",
+    "date": "Ponedeljek, 21. 7. 2025",
+    "time": "18:00",
+    "location": "Kino Bežigrad",
+    "price": "24,00",
+    "imgUrl": "assets/images/tickets/hp1.jpg",
+    "isDescArray": true,
+    "longDescArray": [
+      { "isBold": false, "newLine": false, "text": "store.treasureHunt.longDesc.part1" },
+      { "isBold": true,  "newLine": false, "text": "store.treasureHunt.longDesc.part2" },
+      { "isBold": false, "newLine": true,  "text": "store.treasureHunt.longDesc.part3" },
+      { "isBold": false, "newLine": false, "text": "store.treasureHunt.longDesc.part4" },
+      { "isBold": true,  "newLine": true,  "text": "store.treasureHunt.longDesc.part5" },
+      { "isBold": true,  "newLine": true,  "text": "store.treasureHunt.longDesc.part6" },
+      { "isBold": false, "newLine": false, "text": "store.treasureHunt.longDesc.part7" },
+      { "isBold": true,  "newLine": false, "text": "store.treasureHunt.longDesc.part8" },
+      { "isBold": false, "newLine": true,  "text": "store.treasureHunt.longDesc.part9" },
+      { "isBold": true,  "newLine": true,  "text": "store.treasureHunt.longDesc.part10" }
+    ],
+    "stripeLink": "https://buy.stripe.com/28EdRbajmdCIeh10HH5J60e"
+  },
+  {
+    "id": 5,
+    "title": "Športni pub kviz v Neks Lounge Baru",
+    "shortDesc": "Pridi v Kino Bežigrad na Harry Potter tematski pub kviz. Primeren za vse generacije",
+    "date": "Ponedeljek, 21. 7. 2025",
+    "time": "18:00",
+    "location": "Kino Bežigrad",
+    "price": "24,00",
+    "imgUrl": "assets/images/tickets/hp1.jpg",
+    "isDescArray": true,
+    "longDescArray": [
+      { "isBold": false, "newLine": false, "text": "store.treasureHunt.longDesc.part1" },
+      { "isBold": true,  "newLine": false, "text": "store.treasureHunt.longDesc.part2" },
+      { "isBold": false, "newLine": true,  "text": "store.treasureHunt.longDesc.part3" },
+      { "isBold": false, "newLine": false, "text": "store.treasureHunt.longDesc.part4" },
+      { "isBold": true,  "newLine": true,  "text": "store.treasureHunt.longDesc.part5" },
+      { "isBold": true,  "newLine": true,  "text": "store.treasureHunt.longDesc.part6" },
+      { "isBold": false, "newLine": false, "text": "store.treasureHunt.longDesc.part7" },
+      { "isBold": true,  "newLine": false, "text": "store.treasureHunt.longDesc.part8" },
+      { "isBold": false, "newLine": true,  "text": "store.treasureHunt.longDesc.part9" },
+      { "isBold": true,  "newLine": true,  "text": "store.treasureHunt.longDesc.part10" }
+    ],
+    "stripeLink": "https://buy.stripe.com/28EdRbajmdCIeh10HH5J60e"
+  }
+
+]

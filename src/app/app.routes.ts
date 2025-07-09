@@ -5,6 +5,7 @@ import { ContactUsComponent } from './components/contact-us/contact-us.component
 import {HireUsComponent} from "./components/hire-us/hire-us.component";
 import {StoreComponent} from "./components/store/store.component";
 import {SpecialStoreComponent} from "./components/special-store/special-store.component";
+import {TicketsStoreComponent} from "./components/tickets-store/tickets-store.component";
 import {AfterPurchaseComponent} from "./components/after-purchase/after-purchase.component";
 import {AfterPurchaseHuntComponent} from "./components/after-purchase-hunt/after-purchase-hunt.component";
 import {AfterPurchaseHuntSpecialComponent} from "./components/after-purchase-hunt-special/after-purchase-hunt-special.component";
@@ -14,6 +15,7 @@ export const routes: Routes = [
 //   { path: 'novice', component: NoviceComponent },
   { path: 'hire-us', component: HireUsComponent },
   { path: 'contact-us', component: ContactUsComponent },
+  { path: 'tickets-store', component: TicketsStoreComponent },
   { path: 'store', component: StoreComponent },
   { path: 'store/special', component: SpecialStoreComponent },
   { path: 'after-purchase', component: AfterPurchaseComponent },

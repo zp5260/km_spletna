@@ -1,0 +1,48 @@
+.ticket-card {
+  width: 20vw;
+  max-width: 450px;
+  min-width: 300px;
+  font-family: sans-serif;
+}
+
+.ticket-image {
+  width: 100%;
+  height: 200px; /* ali poljubna enotna višina */
+  object-fit: cover; /* ohrani središče slike, odreže višek */
+  display: block;
+}
+
+
+.ticket-content {
+ padding-left: 0px;
+ padding-top: 5px;
+ gap: 50px;
+}
+
+.title {
+  font-size: 1.25rem;
+  font-family: "DM Serif Text", serif;
+  font-weight: 40;
+  font-style: normal;
+  margin: 0 0 0.2rem 0;
+  color: #000;
+}
+/*
+.subtitle {
+  font-size: 1.10rem;
+  font-family: 'Didact Gothic', sans-serif;
+  color: #333;
+  margin: 0 0 0.1rem 0;
+}*/
+
+.date-time {
+   font-size: 1rem;
+/*
+   font-weight: bold;
+*/
+   color: #636466;
+   margin: 0;
+/*   padding-top: 5px;*/
+}
+
+

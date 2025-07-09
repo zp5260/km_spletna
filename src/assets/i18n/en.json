@@ -3,7 +3,9 @@
     "aboutUs": "About Us",
     "hireUs": "Hire Us",
     "store": "Store",
-    "contact": "Contact us"
+    "contact": "Contact us",
+    "ticketsStore": "Quiz tickets"
+
   },
   "store": {
     "buy": "Buy",
