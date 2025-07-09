@@ -10,9 +10,7 @@ import { CommonModule } from '@angular/common';
 })
 export class TicketCardComponent {
   @Input() title!: string;
-  @Input() shortDesc!: string;
   @Input() date!: string;
   @Input() time!: string;
-  @Input() price!: string;
   @Input() imgUrl!: string;
 }

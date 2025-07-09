@@ -1,0 +1,21 @@
+[
+  {
+    "id": "HP-21-7-25",
+    "title": "Harry Potter pub kviz (ponovitev)",
+    "date": "Ponedeljek, 21. 7. 2025",
+    "time": "18:00",
+    "location": "Kino Bežigrad",
+    "price": "24,00",
+    "imgUrl": "assets/images/tickets/hp215.jpg",
+    "longDescArray": [
+      { "isBold": true, "newLine": true, "text": "Povabi prijatelje na pub kviz o Harryju Potterju!" },
+      { "isBold": false, "newLine": true, "text": "Vabljeni na tematski pub kviz v Kino Bežigrad. Čaka vas večer poln čarobnih vprašanj, dobre družbe in sproščene atmosfere. S svojo ekipo boste lahko dokazali, kdo med vami je pravi Potterhead!" },
+      { "isBold": false, "newLine": true, "text": "Za sodelovanje preprosto sestavi ekipo do 4 oseb, kupi vstopnico in jo pokaži na vhodu. Število mest je omejeno, zato si pravočasno zagotovi svojo karto." },
+      { "isBold": true, "newLine": false, "text": "Po kvizu sledi posebna poslastica – ob 20:30 se bo v Kinu Bežigrad predvajal film Harry Potter in ognjeni kelih (4. del)." },
+      { "isBold": false, "newLine": true, "text": "Vstopnice za film so na voljo na spletni strani Kina Bežigrad. Za udeležence kviza velja posebna akcija 3 + 1 gratis." },
+      { "isBold": false, "newLine": true, "text": "Se vidimo na čarobnem večeru!" },
+      { "isBold": true, "newLine": true, "text": "POZOR: Gre za ponovitev kviza, ki je bil izveden 12. in 27. 5. ter 9. in 19. 6., zato dogodek ni primeren za tiste, ki so takrat že sodelovali. Hvala za razumevanje." }
+    ],
+    "stripeLink": "https://buy.stripe.com/5kQ28t77a1U0eh12PP5J60f"
+  }
+]

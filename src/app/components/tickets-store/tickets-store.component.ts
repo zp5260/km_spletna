@@ -1,10 +1,10 @@
 import { Component, OnInit, CUSTOM_ELEMENTS_SCHEMA, NO_ERRORS_SCHEMA, Inject, PLATFORM_ID } from '@angular/core';
-import { Ticket } from '../../models/ticket.model';
+import { Event } from '../../models/event.model';
 import { HttpClient } from '@angular/common/http';
 import { CommonModule } from '@angular/common';
 import { isPlatformBrowser } from '@angular/common';
 import { TicketCardComponent } from '../ticket-card/ticket-card.component';
-
+import { Router } from '@angular/router';
 
 import { TranslateService } from '@ngx-translate/core';
 import { TranslateModule } from '@ngx-translate/core';
@@ -19,18 +19,23 @@ import { TranslateModule } from '@ngx-translate/core';
 
 })
 export class TicketsStoreComponent implements OnInit{
-  tickets: Ticket[] = [];
+  tickets: Event[] = [];
 
   constructor(
     private http: HttpClient,
     private translate: TranslateService,
+    private router: Router,
     @Inject(PLATFORM_ID) private platformId: Object
   ) {}
 
   ngOnInit(): void {
-      this.http.get<Ticket[]>('assets/data/tickets.json').subscribe(data => {
+      this.http.get<Event[]>('assets/data/events.json').subscribe(data => {
         this.tickets = data;
       });
+  }
+
+  goToEventDetails(id: string): void {
+    this.router.navigate(['/tickets-store', id]);
   }
 
 }

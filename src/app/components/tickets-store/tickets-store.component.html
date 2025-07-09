@@ -3,11 +3,10 @@
     <app-ticket-card
       *ngFor="let ticket of tickets"
       [title]="ticket.title"
-      [shortDesc]="ticket.shortDesc"
       [date]="ticket.date"
       [time]="ticket.time"
-      [price]="ticket.price"
       [imgUrl]="ticket.imgUrl"
+      (click)="goToEventDetails(ticket.id)"
     ></app-ticket-card>
   </div>
 </div>

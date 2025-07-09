@@ -3,6 +3,7 @@ import { RouterModule, Routes } from '@angular/router';
 import { AboutUsComponent } from './components/about-us/about-us.component';
 import { ContactUsComponent } from './components/contact-us/contact-us.component';
 import {HireUsComponent} from "./components/hire-us/hire-us.component";
+import {EventDetailsComponent} from "./components/event-details/event-details.component";
 import {StoreComponent} from "./components/store/store.component";
 import {SpecialStoreComponent} from "./components/special-store/special-store.component";
 import {TicketsStoreComponent} from "./components/tickets-store/tickets-store.component";
@@ -15,6 +16,7 @@ export const routes: Routes = [
 //   { path: 'novice', component: NoviceComponent },
   { path: 'hire-us', component: HireUsComponent },
   { path: 'contact-us', component: ContactUsComponent },
+  { path: 'tickets-store/:id', component: EventDetailsComponent },
   { path: 'tickets-store', component: TicketsStoreComponent },
   { path: 'store', component: StoreComponent },
   { path: 'store/special', component: SpecialStoreComponent },
