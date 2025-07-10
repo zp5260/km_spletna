@@ -1,5 +1,23 @@
 [
   {
+    "id": "NC-17-7-25",
+    "title": "Splošni pub kviz v New Castlu",
+    "date": "Četrtek, 17. 7. 2025",
+    "time": "19:00",
+    "location": "New Castle pub",
+    "price": "24,00",
+    "imgUrl": "assets/images/tickets/NC-kviz.png",
+    "longDescArray": [
+      { "isBold": true, "newLine": true, "text": "Pridi na splošni pub kviz v New Castle Pub!" },
+      { "isBold": false, "newLine": true, "text": "Povabi kolege v četrtek, 17. julija ob 19:00 na pub kviz splošnih tematik. Čaka vas približno 10 tematskih kategorij – od filma, glasbe, zgodovine in športa do bolj zabavnih in nepričakovanih izzivov." },
+      { "isBold": false, "newLine": true, "text": "Posamezna tekmovalna skupina lahko vsebuje do 4 člane." },
+      { "isBold": true, "newLine": true, "text": "Zmagovalna ekipa prejme rundo in 2 pici po izbiri." },
+      { "isBold": false, "newLine": true, "text": "Število mest je omejeno, zato priporočamo zgodnjo rezervacijo." },
+      { "isBold": false, "newLine": true, "text": "Se vidimo na kvizu!" }
+    ],
+    "stripeLink": "https://buy.stripe.com/aFa28t4Z2gOUc8Teyx5J60g"
+  },
+  {
     "id": "HP-21-7-25",
     "title": "Harry Potter pub kviz (ponovitev)",
     "date": "Ponedeljek, 21. 7. 2025",
