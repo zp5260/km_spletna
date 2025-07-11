@@ -7,6 +7,7 @@ import { TranslateModule, TranslateLoader } from '@ngx-translate/core';
 import { HttpClient } from '@angular/common/http';
 import { TranslateHttpLoader } from '@ngx-translate/http-loader';
 import { importProvidersFrom } from '@angular/core';
+import { LocationStrategy, HashLocationStrategy } from '@angular/common';
 
 // Factory za nalaganje prevodov
 export function HttpLoaderFactory(http: HttpClient) {
@@ -15,6 +16,7 @@ export function HttpLoaderFactory(http: HttpClient) {
 
 export const appConfig: ApplicationConfig = {
   providers: [
+    {provide: LocationStrategy, useClass: HashLocationStrategy},
     provideHttpClient(),
     provideRouter(routes),
     importProvidersFrom(
