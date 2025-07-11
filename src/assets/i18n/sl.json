@@ -23,6 +23,16 @@
         "part9": "najstarejši in najznamenitejši trgovski ulici v Kopru. Vse, kar potrebujete za izziv, bo v eni veliki kuverti. Navodila vas bodo vodila po nalogah, ki jih boste reševali na različnih delih starega mestnega jedra Kopra. Če vmes ne boste uspeli razvozlati kakšnega dokumenta, si boste lahko pomagali z namigi, priloženimi v kuverti.",
         "part10": "Si upate podati po stopinjah beneškega trgovca Marca da Ponteja in odkriti zaklad?"
       }
+    },
+    "voucher": {
+      "title": "Darilni bon: Vstopnica za pub kviz",
+      "shortDesc": "Podari trenutek v svoji družbi \uD83C\uDF81\n",
+      "longDesc": {
+        "part1": "Podari trenutek v svoji družbi \uD83C\uDF81\n",
+        "part2": "S tem darilnim bonom - vstopnico za pub kviz za 4 osebe - boš bližnjega presenetil/a s prav posebno izkušnjo; večerom polnim smeha, izzivov in dobrega vzdušja. \uD83D\uDCA1\uD83C\uDFB2\n",
+        "part3": "Idealno za vse, ki radi testirajo svoje znanje, uživajo v zdravi meri ekipne tekmovalnosti in iščejo nove oblike družabnih večerov.",
+        "part4": "Po nakupu darilni bon prejmete na elektronski naslov."
+      }
     }
   },
   "afterPurchase": {

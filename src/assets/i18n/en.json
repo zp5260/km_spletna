@@ -24,6 +24,17 @@
         "part9": "the oldest and most famous shopping street in Koper. Everything you need for the challenge will be inside a large envelope. The instructions will guide you through tasks located throughout Koper's historic town center. If you get stuck, you can use the included hints to help solve the puzzles.",
         "part10": "Do you dare to follow in the footsteps of the Venetian merchant Marco da Ponte and uncover the treasure?"
       }
+    },
+    "voucher": {
+      "title": "Gift Voucher: Pub Quiz Ticket",
+      "shortDesc": "Because time together is the most valuable present🎁\n",
+      "longDesc": {
+        "part1": "Because time together is the most valuable present 🎁\n",
+        "part2": "With this gift voucher – a pub quiz ticket for 4 people – you'll surprise someone special with a unique experience: an evening full of laughter, challenges, and great vibes. 💡🎲\n",
+        "part3": "Perfect for those who love to test their knowledge, enjoy healthy team competition, and are looking for new forms of social evenings.",
+        "part4": "After purchase, the gift voucher will be sent to your email address.",
+        "part5": "Friendly reminder: Pub quizzes are held in Slovenian."
+      }
     }
   },
   "afterPurchase": {

@@ -31,5 +31,32 @@
       { "type": "image", "src": "assets/images/products/lov-na-zaklad/lovulica.jpg" }
     ],
     "stripeLink": "https://buy.stripe.com/fZu00lfDGgOU1ufbml5J60c"
+  },
+  {
+    "id": 1,
+    "title": "store.voucher.title",
+    "shortDesc": "store.voucher.shortDesc",
+    "price": "24",
+    "onDiscount": false,
+    "discountPrice": "24",
+    "discountPercentage":"0",
+    "imgUrl": "assets/images/products/voucher/voucher-card.jpg",
+    "isDescArray": true,
+    "longDescArray": [
+      { "isBold": true, "newLine": true, "text": "store.voucher.longDesc.part1" },
+      { "isBold": false, "newLine": true, "text": "store.voucher.longDesc.part2" },
+      { "isBold": false, "newLine": true, "text": "store.voucher.longDesc.part3" },
+      { "isBold": false, "newLine": true, "text": "store.voucher.longDesc.part4" },
+      { "isBold": false, "newLine": true, "text": "store.voucher.longDesc.part5" }
+    ],
+    "gallery": [
+      { "type": "image", "src": "assets/images/products/voucher/details/voucher0.jpg" },
+      { "type": "image", "src": "assets/images/products/voucher/details/voucher1.png" },
+      { "type": "image", "src": "assets/images/products/voucher/details/voucher2.png" },
+      { "type": "image", "src": "assets/images/products/voucher/details/voucher4.jpg" },
+      { "type": "image", "src": "assets/images/products/voucher/details/voucher5.jpg" },
+      { "type": "image", "src": "assets/images/products/voucher/details/voucher6.png" }
+    ],
+    "stripeLink": "https://buy.stripe.com/7sYfZj6366ag8WH8a95J60h"
   }
 ]

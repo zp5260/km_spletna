@@ -6,8 +6,8 @@
   min-height: calc(80vh - 60px); /* Adjust 60px to match the height of your header */
   padding: 20px;
   padding-top: 15vh;
-  justify-content: center;
-  padding-bottom: 15vh;
+  justify-content: start;
+  padding: 15vh;
   align-self: stretch;      /* po višini, če je vertikalni flex */
   gap: 4vw;
 }
@@ -229,28 +229,10 @@ swiper-slide video {
 
 
 @media (max-width: 768px) {
-
-/*  .classa{
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100vw;
-    display: flex;
-    flex-direction: column;
-    height: 100vh; *//* ali kolk placa rabiš *//*
-  }*/
-
-/*  .top {
-    *//* nič posebnega, samo naj bo minimalno *//*
-    background-color: blue;
+  .store-container {
+    justify-content: center;
+    gap: 4rem;
   }
-
-  .bottom {
-    flex: 1; *//* vzame preostali prostor *//*
-    overflow: auto; *//* če hočeš scroll znotraj *//*
-    background-color: yellow;
-  }*/
-
 
   .modal-container {
     position: fixed;
