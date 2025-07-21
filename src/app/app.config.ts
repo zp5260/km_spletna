@@ -16,7 +16,6 @@ export function HttpLoaderFactory(http: HttpClient) {
 
 export const appConfig: ApplicationConfig = {
   providers: [
-    {provide: LocationStrategy, useClass: HashLocationStrategy},
     provideHttpClient(),
     provideRouter(routes),
     importProvidersFrom(
