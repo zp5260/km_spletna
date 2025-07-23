@@ -92,9 +92,9 @@
     "id": 3,
     "title": "store.quizPackage.title",
     "shortDesc": "store.quizPackage.shortDesc",
-    "price": "32,99",
+    "price": "29,99",
     "onDiscount": false,
-    "discountPrice": "32,99",
+    "discountPrice": "29,99",
     "discountPercentage":"0",
     "imgUrl": "assets/images/products/kviz-doma/obakviza.jpg",
     "isDescArray": true,
@@ -120,7 +120,7 @@
       { "type": "image", "src": "assets/images/products/gallery/pomlad4.jpg" },
       { "type": "image", "src": "assets/images/products/kviz-doma/summer-quizes/hp4.png" }
     ],
-    "stripeLink": "https://buy.stripe.com/28EbJ3gHKcyEfl51LL5J60q"
+    "stripeLink": "https://buy.stripe.com/bJe7sNajm2Y4c8T7655J60r"
   },
   {
     "id": 4,
