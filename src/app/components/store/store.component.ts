@@ -32,15 +32,17 @@ export class StoreComponent implements OnInit {
   ) {}
 
   ngOnInit(): void {
-    if (isPlatformBrowser(this.platformId)) {
-      const browserLang = navigator.language;
-      this.translate.setDefaultLang('sl');
-      this.translate.use(browserLang.startsWith('sl') ? 'sl' : 'en');
-    } else {
-      // Fallback jezik na strežni strani
-      this.translate.setDefaultLang('sl');
-      this.translate.use('sl');
-    }
+  if (isPlatformBrowser(this.platformId)) {
+    const savedLang = localStorage.getItem('lang');
+    const browserLang = navigator.language;
+    const langToUse = savedLang || (browserLang.startsWith('sl') ? 'sl' : 'en');
+
+    this.translate.setDefaultLang('sl');
+    this.translate.use(langToUse);
+  } else {
+    this.translate.setDefaultLang('sl');
+    this.translate.use('sl');
+  }
 
     this.http.get<Product[]>('assets/data/produkti.json').subscribe(data => {
       this.products = data;
