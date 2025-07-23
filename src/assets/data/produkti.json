@@ -34,6 +34,96 @@
   },
   {
     "id": 1,
+    "title": "store.digitalQuizGeneral.title",
+    "shortDesc": "store.digitalQuizGeneral.shortDesc",
+    "price": "19,99",
+    "onDiscount": false,
+    "discountPrice": "19,99",
+    "discountPercentage":"0",
+    "imgUrl": "assets/images/products/kviz-doma/stripesplosni.png",
+    "isDescArray": true,
+    "longDescArray": [
+      { "isBold": false, "newLine": true, "text": "store.digitalQuizGeneral.longDesc.part1" },
+      { "isBold": false, "newLine": true, "text": "store.digitalQuizGeneral.longDesc.part2" },
+      { "isBold": false, "newLine": true, "text": "store.digitalQuizGeneral.longDesc.part3" },
+      { "isBold": false, "newLine": true, "text": "store.digitalQuizGeneral.longDesc.part4" },
+      { "isBold": false, "newLine": true, "text": "store.digitalQuizGeneral.longDesc.part5" },
+      { "isBold": false, "newLine": true, "text": "store.digitalQuizGeneral.longDesc.part6" }
+    ],
+    "gallery": [
+      { "type": "image", "src": "assets/images/products/gallery/pomlad3.jpg" },
+      { "type": "image", "src": "assets/images/products/kviz-doma/summer-quizes/splosni1.png" },
+      { "type": "image", "src": "assets/images/products/kviz-doma/summer-quizes/splosni2.png" },
+      { "type": "image", "src": "assets/images/products/gallery/pomlad1.jpg" },
+      { "type": "image", "src": "assets/images/products/gallery/pomlad2.jpg" },
+      { "type": "image", "src": "assets/images/products/gallery/pomlad5.jpg" },
+      { "type": "image", "src": "assets/images/products/gallery/pomlad4.jpg" }
+    ],
+    "stripeLink": "https://buy.stripe.com/fZucN7fDGgOU7SDgGF5J60o"
+  },
+  {
+    "id": 2,
+    "title": "store.digitalQuizHP.title",
+    "shortDesc": "store.digitalQuizHP.shortDesc",
+    "price": "22,99",
+    "onDiscount": false,
+    "discountPrice": "22,99",
+    "discountPercentage":"0",
+    "imgUrl": "assets/images/products/kviz-doma/harrypotter.png",
+    "isDescArray": true,
+    "longDescArray": [
+      { "isBold": false, "newLine": true, "text": "store.digitalQuizHP.longDesc.part1" },
+      { "isBold": false, "newLine": true, "text": "store.digitalQuizHP.longDesc.part2" },
+      { "isBold": false, "newLine": true, "text": "store.digitalQuizHP.longDesc.part3" },
+      { "isBold": false, "newLine": true, "text": "store.digitalQuizHP.longDesc.part4" },
+      { "isBold": false, "newLine": true, "text": "store.digitalQuizHP.longDesc.part5" },
+      { "isBold": false, "newLine": true, "text": "store.digitalQuizHP.longDesc.part6" }
+
+    ],
+    "gallery": [
+      { "type": "image", "src": "assets/images/products/kviz-doma/summer-quizes/hp1.png" },
+      { "type": "image", "src": "assets/images/products/kviz-doma/summer-quizes/hp2.png" },
+      { "type": "image", "src": "assets/images/products/kviz-doma/summer-quizes/hp3.png" },
+      { "type": "image", "src": "assets/images/products/kviz-doma/summer-quizes/hp4.png" }
+    ],
+    "stripeLink": "https://buy.stripe.com/aFa4gB77a1U0b4P9ed5J60p"
+  },
+  {
+    "id": 3,
+    "title": "store.quizPackage.title",
+    "shortDesc": "store.quizPackage.shortDesc",
+    "price": "32,99",
+    "onDiscount": false,
+    "discountPrice": "32,99",
+    "discountPercentage":"0",
+    "imgUrl": "assets/images/products/kviz-doma/obakviza.jpg",
+    "isDescArray": true,
+    "longDescArray": [
+      { "isBold": false, "newLine": true, "text": "store.quizPackage.longDesc.part1" },
+      { "isBold": false, "newLine": true, "text": "store.quizPackage.longDesc.part2" },
+      { "isBold": false, "newLine": true, "text": "store.quizPackage.longDesc.part3" },
+      { "isBold": false, "newLine": true, "text": "store.quizPackage.longDesc.part4" },
+      { "isBold": false, "newLine": true, "text": "store.quizPackage.longDesc.part5" },
+      { "isBold": false, "newLine": true, "text": "store.quizPackage.longDesc.part6" }
+
+    ],
+    "gallery": [
+      { "type": "image", "src": "assets/images/products/gallery/pomlad3.jpg" },
+      { "type": "image", "src": "assets/images/products/kviz-doma/summer-quizes/splosni1.png" },
+      { "type": "image", "src": "assets/images/products/kviz-doma/summer-quizes/hp1.png" },
+      { "type": "image", "src": "assets/images/products/kviz-doma/summer-quizes/splosni2.png" },
+      { "type": "image", "src": "assets/images/products/gallery/pomlad1.jpg" },
+      { "type": "image", "src": "assets/images/products/kviz-doma/summer-quizes/hp3.png" },
+      { "type": "image", "src": "assets/images/products/gallery/pomlad5.jpg" },
+      { "type": "image", "src": "assets/images/products/kviz-doma/summer-quizes/hp2.png" },
+      { "type": "image", "src": "assets/images/products/gallery/pomlad2.jpg" },
+      { "type": "image", "src": "assets/images/products/gallery/pomlad4.jpg" },
+      { "type": "image", "src": "assets/images/products/kviz-doma/summer-quizes/hp4.png" }
+    ],
+    "stripeLink": "https://buy.stripe.com/28EbJ3gHKcyEfl51LL5J60q"
+  },
+  {
+    "id": 4,
     "title": "store.voucher.title",
     "shortDesc": "store.voucher.shortDesc",
     "price": "24",
@@ -47,15 +137,15 @@
       { "isBold": false, "newLine": true, "text": "store.voucher.longDesc.part2" },
       { "isBold": false, "newLine": true, "text": "store.voucher.longDesc.part3" },
       { "isBold": false, "newLine": true, "text": "store.voucher.longDesc.part4" },
-      { "isBold": false, "newLine": true, "text": "store.voucher.longDesc.part5" }
+      { "isBold": false, "newLine": true, "text": "store.voucher.longDesc.part5" },
+      { "isBold": false, "newLine": true, "text": "store.voucher.longDesc.part6" }
     ],
     "gallery": [
       { "type": "image", "src": "assets/images/products/voucher/details/voucher0.jpg" },
       { "type": "image", "src": "assets/images/products/voucher/details/voucher1.png" },
       { "type": "image", "src": "assets/images/products/voucher/details/voucher2.png" },
       { "type": "image", "src": "assets/images/products/voucher/details/voucher4.jpg" },
-      { "type": "image", "src": "assets/images/products/voucher/details/voucher5.jpg" },
-      { "type": "image", "src": "assets/images/products/voucher/details/voucher6.png" }
+      { "type": "image", "src": "assets/images/products/voucher/details/voucher5.jpg" }
     ],
     "stripeLink": "https://buy.stripe.com/7sYfZj6366ag8WH8a95J60h"
   }

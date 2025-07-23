@@ -35,6 +35,42 @@
         "part4": "After purchase, the gift voucher will be sent to your email address.",
         "part5": "Friendly reminder: Pub quizzes are held in Slovenian."
       }
+    },
+    "digitalQuizGeneral": {
+      "title": "General Knowledge Pub Quiz for Home",
+      "shortDesc": "A digital general-knowledge pub quiz in Slovenian. Suitable for all generations and interest groups.",
+      "longDesc": {
+        "part1": "Spice up your time with friends or family with a new version of the quiz from the comfort of your living room or during a summer picnic.",
+        "part2": "The general quiz consists of 8 different categories with 6 questions each, suitable for all age groups. It also includes audio and visual content, plus an exclusive prize draw 🎁.",
+        "part3": "All you need to play is a computer, internet access, paper, and pens ✍. You'll start with brief instructions, followed by the complete quiz with all clips and answers. Just follow the presentation and enjoy! 🍻✌🏽",
+        "part4": "This quiz is not suitable for those who attended Mojster's Quiz on July 2, 2025 at Foerster.",
+        "part5": "📧 You will receive access to the quizzes (via your email) within 24 hours of purchase. If you wish to play sooner, contact us at kviz.mojster@gmail.com.",
+        "part6": "The quizzes will be available until at least September 15, 2025."
+      }
+    },
+    "digitalQuizHP": {
+      "title": "Harry Potter Pub Quiz for Home",
+      "shortDesc": "A quiz of medium difficulty for all Harry Potter fans. Quiz is in Slovenian.",
+      "longDesc": {
+        "part1": "Spice up your time with friends or family with a new version of the quiz from the comfort of your living room or during a summer picnic.",
+        "part2": "The Harry Potter pub quiz consists of 10 different categories and around 50 questions, all centered on our favorite wizard. It also includes audio and visual content, plus an exclusive prize draw 🎁.",
+        "part3": "All you need to play is a computer, internet access, paper, and pens ✍. You'll start with brief instructions, followed by the complete quiz with all clips and answers. Just follow the presentation and enjoy! 🍻✌🏽",
+        "part4": "This quiz is not suitable for those who attended Mojster's Harry Potter Quiz on January 23, 2024 at Foerster.",
+        "part5": "📧 You will receive access to the quizzes (via your email) within 24 hours of purchase. If you wish to play sooner, contact us at kviz.mojster@gmail.com.",
+        "part6": "The quizzes will be available until at least September 15, 2025."
+      }
+    },
+    "quizPackage": {
+      "title": "Two-Quiz Package",
+      "shortDesc": "Two digital pub quizzes for home at an exclusive price. Quizzes are in Slovenian",
+      "longDesc": {
+        "part1": "Spice up your time with friends and family with an exclusive bundle of two quizzes, perfect for all generations! 🧠🍹",
+        "part2": "Instead of one, you get two different quizzes: the general-knowledge quiz and the Harry Potter quiz. Together, they include around 100 unique questions, audio and visual content, and an exclusive prize draw!",
+        "part3": "All you need to play is a computer, internet access, paper, and pens ✍. You'll start with brief instructions, followed by the complete quiz with all clips and answers. Just follow the presentation and enjoy! 🍻✌🏽",
+        "part4": "The Harry Potter quiz is not suitable for those who attended Mojster's Harry Potter Quiz on January 23, 2024 at Foerster. The general quiz is not suitable for those who attended the quiz on July 2, 2025 at Foerster.",
+        "part5": "📧 You will receive access to the quizzes (via your email) within 24 hours of purchase. If you wish to play sooner, contact us at kviz.mojster@gmail.com.",
+        "part6": "The quizzes will be available until at least September 15, 2025."
+      }
     }
   },
   "afterPurchase": {

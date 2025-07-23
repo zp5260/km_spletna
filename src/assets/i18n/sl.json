@@ -24,6 +24,42 @@
         "part10": "Si upate podati po stopinjah beneškega trgovca Marca da Ponteja in odkriti zaklad?"
       }
     },
+    "digitalQuizGeneral": {
+      "title": "Splošni pub kviz za doma",
+      "shortDesc": "Digitalni pub kviz za doma splošnih tematik. Primeren za vse generacije in interesne skupine.",
+      "longDesc": {
+        "part1": "Popestrite čas s prijatelji ali družino z novo različico kviza v udobju dnevne sobe ali sredi poletnega piknika.",
+        "part2": "Splošni kviz je sestavljen iz 8 različnih tematik po 6 vprašanj, primernih za vse generacije. Vključuje tudi zvočne in slikovne vsebine ter ekskluzivno nagradno igro \uD83C\uDF81.",
+        "part3": "Za igro potrebujete le računalnik, dostop do interneta, papirje in pisala ✍. Na začetku vas čakajo kratka navodila, nato pa celoten kviz z vsemi posnetki in rešitvami. Samo sledite projekciji in uživajte! \uD83C\uDF7B✌\uD83C\uDFFD",
+        "part4": "Kviz ni primeren za tiste, ki so se udeležili Kviz Mojstrovega kviza 2. 7. 2025 v Foersterju.",
+        "part5": "\uD83D\uDCE7 Dostop do kviza (na vaš e-mail) prejmete v roku 24 ur od nakupa. Če pa si želite igrati hitreje, nam pišete na: kviz.mojster@gmail.com.",
+        "part6": "Kvizi bodo dostopni najmanj do 15. 9. 2025."
+      }
+    },
+    "digitalQuizHP": {
+      "title": "Harry Potter pub kviz za doma",
+      "shortDesc": "Kviz za vse navdušence Harryja Potterja srednje težavnosti. ",
+      "longDesc": {
+        "part1": "Prvi tematski pub kviz za doma je tu! Popestrite čas s prijatelji ali družino z novo različico kviza v udobju dnevne sobe ali sredi poletnega piknika.",
+        "part2": "Harry Potter pub  kviz je sestavljen iz 10 različnih tematik in približno 50 vprašanj, primernih za vse generacije. Vsa so seveda na temo našega najljubšega čarovnika. Vključuje tudi zvočne in slikovne vsebine ter ekskluzivno nagradno igro \uD83C\uDF81.",
+        "part3": "Za igro potrebujete le računalnik, dostop do interneta, papirje in pisala ✍. Na začetku vas čakajo kratka navodila, nato pa celoten kviz z vsemi posnetki in rešitvami. Samo sledite projekciji in uživajte! \uD83C\uDF7B✌\uD83C\uDFFD",
+        "part4": "Kviz ni primeren za tiste, ki so se udeležili Kviz Mojstrovega Harry Potter kviza 23. 1. 2024 v Foersterju.",
+        "part5": "\uD83D\uDCE7 Dostop do kviza (na vaš e-mail) prejmete v roku 24 ur od nakupa. Če pa si želite igrati hitreje, nam pišete na: kviz.mojster@gmail.com.",
+        "part6": "Kvizi bodo dostopni najmanj do 15. 9. 2025."
+      }
+    },
+    "quizPackage": {
+      "title": "Paket dveh kvizov",
+      "shortDesc": "Dva digitalna pub kviza za doma po eksluzivni ceni.",
+      "longDesc": {
+        "part1": "Popestrite čas s prijatelji in družino z ekskluzivnim paketom dveh kvizov, ki sta popolna za vse generacije! \uD83E\uDDE0\uD83C\uDF79",
+        "part2": "Namesto enega, prejmete kar dva različna kviza; splošni in Harry Potter pub kviz. Kviza skupno vsebujeta okoli 100 razločnih vprašanj, zvočnih in slikovnih vsebin ter eksluzivno nagradno igro!",
+        "part3": "Za igro potrebujete le računalnik, dostop do interneta, papirje in pisala ✍. Na začetku vas čakajo kratka navodila, nato pa celoten kviz z vsemi posnetki in rešitvami. Samo sledite projekciji in uživajte! \uD83C\uDF7B✌\uD83C\uDFFD",
+        "part4": "Harry Potter kviz ni primeren za tiste, ki so se udeležili Kviz Mojstrovega Harry Potter kviza 23. 1. 2024 v Foersterju. Splošen kviz ni primeren za tiste, ki so se udeležili kviza 2. 7. 2025 v Foersterju.",
+        "part5": "\uD83D\uDCE7 Dostop do kviza (na vaš e-mail) prejmete v roku 24 ur od nakupa. Če pa si želite igrati hitreje, nam pišete na: kviz.mojster@gmail.com.",
+        "part6": "Kvizi bodo dostopni najmanj do 15. 9. 2025."
+      }
+    },
     "voucher": {
       "title": "Darilni bon: Vstopnica za pub kviz",
       "shortDesc": "Podari trenutek v svoji družbi \uD83C\uDF81\n",
@@ -31,7 +67,8 @@
         "part1": "Podari trenutek v svoji družbi \uD83C\uDF81\n",
         "part2": "S tem darilnim bonom - vstopnico za pub kviz za 4 osebe - boš bližnjega presenetil/a s prav posebno izkušnjo; večerom polnim smeha, izzivov in dobrega vzdušja. \uD83D\uDCA1\uD83C\uDFB2\n",
         "part3": "Idealno za vse, ki radi testirajo svoje znanje, uživajo v zdravi meri ekipne tekmovalnosti in iščejo nove oblike družabnih večerov.",
-        "part4": "Po nakupu darilni bon prejmete na elektronski naslov."
+        "part4": "Po nakupu darilni bon prejmete na elektronski naslov.",
+        "part5": "Pub kvizi običajno potekajo v slovenskem jeziku."
       }
     }
   },
