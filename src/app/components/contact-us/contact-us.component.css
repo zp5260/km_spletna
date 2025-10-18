@@ -88,6 +88,7 @@ p {
 .phone-img {
   width: auto;
   height: 80dvh; /* Održava proporcije visine u odnosu na širinu */
+  transform: rotate(12deg);
 }
 
 /* Media query za male ekrane */
@@ -115,8 +116,9 @@ p {
   }
 
   .phone-img {
-    width: 70vw;
+    width: 60vw;
     height: auto;
+    transform: rotate(12deg);
   }
 
   .img-container {
