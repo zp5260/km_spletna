@@ -10,8 +10,7 @@
   box-shadow: 0 0 1px #FF69B4,
   0 0 9px rgba(255, 105, 180, 0.5); /* Manj intenzivno */
   max-width: 400px; /* Omejena širina za prelom na dve vrstici */
-  font-size: 1.2rem; /* Večja pisava */
-  line-height: 1.5; /* Razmik med vrsticami za boljšo berljivost */
+  font-size: 19px; /* Večja pisava */
   overflow: hidden;
   text-overflow: ellipsis;
   color: white;

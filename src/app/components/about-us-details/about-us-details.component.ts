@@ -2,15 +2,15 @@ import { Component } from '@angular/core';
 import {FeedbackComponent} from "../feedback/feedback.component";
 
 @Component({
-  selector: 'app-about-us-feedbacks',
+  selector: 'app-about-us-details',
   standalone: true,
   imports: [
     FeedbackComponent
   ],
-  templateUrl: './about-us-feedbacks.component.html',
-  styleUrl: './about-us-feedbacks.component.css'
+  templateUrl: './about-us-details.component.html',
+  styleUrl: './about-us-details.component.css'
 })
-export class AboutUsFeedbacksComponent {
+export class AboutUsDetailsComponent {
   public weAreText = "Smo mlada ekipa kvizoljubov. V lokalih in na dogodkih po Sloveniji organiziramo pub kvize," +
     " od koder izvira tudi naše ime; KVIZ MOJSTER je namreč oseba, ki med kvizom postavlja vprašanja.";
   public f1 = '"Zelo radi hodimo na vaše kvize, ker imate kvalitetna vprašanja in super izvedbo."';
