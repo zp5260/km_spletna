@@ -6,7 +6,7 @@
   min-height: calc(80vh - 60px); /* Adjust 60px to match the height of your header */
   padding: 20px;
   padding-top: 15vh;
-  justify-content: start;
+  justify-content: center;
   padding: 15vh;
   align-self: stretch;      /* po višini, če je vertikalni flex */
   gap: 4vw;

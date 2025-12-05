@@ -1,117 +1,74 @@
 [
-  {
-    "id": "Pop-Bar-26-7-25",
-    "title": "Splošni pub kviz v Pop baru na Koroškem",
-    "date": "Sobota, 26. 7. 2025",
+    {
+    "id": "Foerster-9-12-25",
+    "title": "Splošni pub kviz v Foersterju v Ljubljani",
+    "date": "Torek, 9. 12. 2025",
     "time": "19:00",
-    "location": "Pop bar na Ravnah na Koroškem",
+    "location": "Foerster bar (Rimska cesta 13, 1000 Ljubljana)",
     "price": "24,00",
-    "imgUrl": "assets/images/tickets/popbar.jpg",
+    "imgUrl": "assets/images/tickets/foerster.png",
     "longDescArray": [
-      { "isBold": true, "newLine": true, "text": "Pridi na splošni pub kviz v Pop bar na Ravnah na Koroškem!" },
-      { "isBold": false, "newLine": true, "text": "Povabi kolege v soboto, 26. julija, ob 19:00 na pub kviz splošnih tematik. Čaka vas približno 10 tematskih kategorij – od filma, glasbe, zgodovine in športa do bolj zabavnih in nepričakovanih izzivov." },
+      { "isBold": true, "newLine": true, "text": "Pridi na splošni pub kviz v Foerster! 💡" },
+      { "isBold": false, "newLine": true, "text": "Povabi prijatelje in se nam pridruži v torek, 9. decembra, ob 19:00 na pub kvizu splošnih tematik. Čaka vas približno 10 tematskih kategorij – od filma, glasbe, geografije in športa do bolj zabavnih in nepričakovanih izzivov. 😁" },
       { "isBold": false, "newLine": true, "text": "Posamezna tekmovalna skupina lahko vsebuje do 4 člane." },
-      { "isBold": true, "newLine": true, "text": "Zmagovalne 3 ekipe prejmejo nagrade." },
+      { "isBold": true, "newLine": true, "text": "Zmagovalci prejmejo nagrado!" },
       { "isBold": false, "newLine": true, "text": "Število mest je omejeno, zato priporočamo zgodnjo rezervacijo." },
-      { "isBold": false, "newLine": true, "text": "Se vidimo na kvizu!" }
-    ],
-    "stripeLink": "https://buy.stripe.com/eVq14p8be7ekc8T6215J60i"
+{ "isBold": false, "newLine": true, "text": "*Opozorilo: Kviz ni primeren za udeležence lige, ki so tekmovali v četrtek, 4. 12., v New Castlu. Hvala za fer igro!" },
+      { "isBold": false, "newLine": true, "text": "Se vidimo! 💪" } 
+],
+    "stripeLink":"https://buy.stripe.com/14AaEQaQ43ay65Icv0g3605"
   },
-  {
-    "id": "Fenix-Kranj-29-7-25",
-    "title": "Splošni pub kviz v Fenix bar & more v Kranju",
-    "date": "Torek, 29. 7. 2025",
+      {
+    "id": "PK-10-12-25",
+    "title": "Tematski kviz: POP KULTURA v Kinu Bežigrad",
+    "date": "Sreda, 10. 12. 2025",
     "time": "19:00",
-    "location": "Fenix bar & more",
+    "location": "Kino Bežigrad",
+    "price": "24,00",
+    "imgUrl": "assets/images/tickets/popkultura.jpg",
+    "longDescArray": [
+    { "isBold": true, "newLine": true, "text": "Vabljeni na prvi pub kviz na temo pop kulture! Vse o filmskih ikonah, glasbenih hitih, trendih, memih, zvezdnikih in  ostalem dogajanju na domači in tuji sceni v zadnjih desetletjih 🎬📺✨" },
+    { "isBold": false, "newLine": true, "text": "Za sodelovanje preprosto sestavi ekipo do 4 oseb, kupi vstopnico in jo pokaži na vhodu. Število mest je omejeno, zato si pravočasno zagotovi svojo karto." },
+    { "isBold": false, "newLine": true, "text": "Ob prijavi nam lahko zaupaš, kaj po tvoje na takem kvizu NE SME MANJKATI 🥤😎"},
+    { "isBold": false, "newLine": true, "text": "Zmagovalce kviza seveda čaka nagrada! 🏆" },
+      { "isBold": false, "newLine": true, "text": "Se vidimo!" }
+    ],
+    "stripeLink": "https://buy.stripe.com/8x23coe2g7qO51E66Cg3606"
+  },
+        {
+    "id": "PK-11-12-25",
+    "title": "Tematski kviz: POP KULTURA v Hangarju v Izoli",
+    "date": "Četrtek, 11. 12. 2025",
+    "time": "19:00",
+    "location": "Hangar (Tomažičeva ulica 10a, 6310 Izola)",
+    "price": "24,00",
+    "imgUrl": "assets/images/tickets/popkultura.png",
+    "longDescArray": [
+    { "isBold": true, "newLine": true, "text": "Vabljeni na prvi pub kviz na temo pop kulture! Filmi, serije, glasbeni hiti, trendi, zvezdniki in ostalo dogajanje na sceni v zadnjih desetletjih 🎬📺✨" },
+    { "isBold": false, "newLine": true, "text": "Za sodelovanje preprosto sestavi ekipo do 4 oseb, kupi vstopnico in jo pokaži na vhodu. Število mest je omejeno, zato si pravočasno zagotovi svojo karto." },
+    { "isBold": false, "newLine": true, "text": "Zmagovalne 3 skupine prejmejo nagrade! 🏆" },
+    { "isBold": false, "newLine": true, "text": "*Opozorilo: Gre za ponovitev kviza 10. 12. v Kinu Bežigrad. Hvala za fer igro!" },
+      { "isBold": false, "newLine": true, "text": "Se vidimo!" }
+    ],
+    "stripeLink": "https://buy.stripe.com/7sY28kf6k6mK0Lo1Qmg3607"
+  },
+    {
+    "id": "Fenix-16-12-25",
+    "title": "Splošni pub kviz v Fenix bar & more v Kranju",
+    "date": "Torek, 16. 12. 2025",
+    "time": "19:00",
+    "location": "FENIX BAR & MORE (Smledniška cesta 138)",
     "price": "24,00",
     "imgUrl": "assets/images/tickets/kranj.jpg",
     "longDescArray": [
-      { "isBold": true, "newLine": true, "text": "Pridi na splošni pub kviz v Fenix v Kranju!" },
-      { "isBold": false, "newLine": true, "text": "Povabi kolege v torek, 29. julija, ob 19:00 na pub kviz splošnih tematik. Čaka vas približno 10 tematskih kategorij – od filma, glasbe, zgodovine in športa do bolj zabavnih in nepričakovanih izzivov." },
+      { "isBold": true, "newLine": true, "text": "Pridi na splošni pub kviz v Kranj!" },
+      { "isBold": false, "newLine": true, "text": "Povabi prijatelje in se nam pridruži v torek, 16. decembra, ob 19:00 na pub kvizu splošnih tematik. Čaka vas približno 10 tematskih kategorij – od filma, glasbe, geografije in športa do bolj zabavnih in nepričakovanih izzivov." },
       { "isBold": false, "newLine": true, "text": "Posamezna tekmovalna skupina lahko vsebuje do 4 člane." },
-      { "isBold": true, "newLine": true, "text": "Zmagovalne ekipe prejmejo nagrade." },
+      { "isBold": true, "newLine": true, "text": "Zmagovalci prejmejo nagrado!" },
       { "isBold": false, "newLine": true, "text": "Število mest je omejeno, zato priporočamo zgodnjo rezervacijo." },
-      { "isBold": false, "newLine": true, "text": "Se vidimo na kvizu!" }
+{ "isBold": false, "newLine": true, "text": "*Opozorilo: v istem tednu se lahko udeležite le enega Kviz Mojstrovega splošnega pub kviza (liga šteje za splošni kviz). Hvala za fer igro!" },
+      { "isBold": false, "newLine": true, "text": "Se vidimo!" }
     ],
-    "stripeLink": "https://buy.stripe.com/28E14pezCcyEfl54XX5J60j"
-  },
-  {
-    "id": "Neks-30-7-25",
-    "title": "Splošni pub kviz v Neksu v Ljubljani",
-    "date": "Sreda, 30. 7. 2025",
-    "time": "20:00",
-    "location": "Neks Lounge Bar",
-    "price": "24,00",
-    "imgUrl": "assets/images/tickets/neks.png",
-    "longDescArray": [
-      { "isBold": true, "newLine": true, "text": "Pridi na splošni pub kviz na teraso Neksa na Rimski cesti v centru Ljubljane!" },
-      { "isBold": false, "newLine": true, "text": "Povabi prijatelje in se nam pridruži v sredo, 30. julija, ob 20:00 na pub kvizu splošnih tematik. Čaka vas približno 10 tematskih kategorij – od filma, glasbe, geografije in športa do bolj zabavnih in nepričakovanih izzivov." },
-      { "isBold": false, "newLine": true, "text": "Posamezna tekmovalna skupina lahko vsebuje do 4 člane." },
-      { "isBold": true, "newLine": true, "text": "Zmagovalni dve skupini prejmeta nagrado!" },
-      { "isBold": false, "newLine": true, "text": "Število mest je omejeno, zato priporočamo zgodnjo rezervacijo." },
-      { "isBold": false, "newLine": true, "text": "Se vidimo na kvizu!" }
-    ],
-    "stripeLink": "https://buy.stripe.com/aFa4gB1MQcyE8WH9ed5J60k"
-  },
-  {
-    "id": "Student-31-7-25",
-    "title": "Splošni pub kviz ob morju Na Študentu v Ankaranu",
-    "date": "Četrtek, 31. 7. 2025",
-    "time": "20:00",
-    "location": "Bar na Študentu",
-    "price": "24,00",
-    "imgUrl": "assets/images/tickets/student.png",
-    "longDescArray": [
-      { "isBold": true, "newLine": true, "text": "Pridi na splošni pub kviz na edinstveno lokacijo bara Na Študentu!" },
-      { "isBold": false, "newLine": true, "text": "Povabi prijatelje in se nam pridruži v četrtek, 31. julija, ob 20:00 na pub kvizu splošnih tematik. Čaka vas približno 10 tematskih kategorij – od filma, glasbe, geografije in športa do bolj zabavnih in nepričakovanih izzivov." },
-      { "isBold": false, "newLine": true, "text": "Posamezna tekmovalna skupina lahko vsebuje do 4 člane." },
-      { "isBold": true, "newLine": true, "text": "Zmagovalne tri skupine prejmejo nagrado!" },
-      { "isBold": false, "newLine": true, "text": "Število mest je omejeno, zato priporočamo zgodnjo rezervacijo." },
-      { "isBold": false, "newLine": true, "text": "Se vidimo na prvem pub kvizu tik ob morju!" }
-    ],
-    "stripeLink": "https://buy.stripe.com/14A28tfDGfKQ7SD8a95J60l"
-  },
-  {
-    "id": "Bled-31-7-25",
-    "title": "Splošni pub kviz ob Blejskem jezeru na Jezerski promenadi",
-    "date": "Četrtek, 31. 7. 2025",
-    "time": "19:00",
-    "location": "Jezerska promenada, Bled",
-    "price": "24,00",
-    "imgUrl": "assets/images/tickets/bled.png",
-    "longDescArray": [
-      { "isBold": true, "newLine": true, "text": "Pridi na splošni pub kviz na edinstveno lokacijo ob Blejskem jezeru!" },
-      { "isBold": false, "newLine": true, "text": "Blejsko poletje prvič predstavlja pub kviz večere! Povabi prijatelje in se nam pridruži v četrtek, 31. julija, ob 19:00 na pub kvizu splošnih tematik. Čaka vas približno 10 tematskih kategorij – od filma, glasbe, geografije in športa do bolj zabavnih in nepričakovanih izzivov." },
-      { "isBold": true, "newLine": true, "text": "Prvič slišiš za pub kviz?" },
-      { "isBold": false, "newLine": true, "text": "Gre za zabaven večer v sproščeni atmosferi. Mi postavljamo vprašanja, vi pa s skupino pišete odgovore na listke brez izpostavljanja! Zagotovljena dobra volja in priložnost, da s svojo družbo nazdravite na lep poletni večer!" },
-      { "isBold": false, "newLine": true, "text": "Posamezna tekmovalna skupina lahko vsebuje do 4 člane." },
-      { "isBold": true, "newLine": true, "text": "Zmagovalne tri skupine prejmejo nagrado!" },
-      { "isBold": false, "newLine": true, "text": "Število mest je omejeno, zato priporočamo zgodnjo rezervacijo." },
-      { "isBold": false, "newLine": true, "text": "Se vidimo na prvem pub kvizu ob Blejskem jezeru!" },
-      { "isBold": false, "newLine": true, "text": "*Če se kviza udeležijo tudi tuji udeleženci, bo potekal tako v slovenščini kot v angleščini." }
-    ],
-    "stripeLink": "https://buy.stripe.com/7sY00lcrufKQfl59ed5J60n"
-  },
-  {
-  "id": "Bled-31-7-25-en",
-  "title": "General Knowledge Pub Quiz by Lake Bled on the Jezerska promenada",
-  "date": "Thursday, July 31, 2025",
-  "time": "7:00 PM",
-  "location": "Jezerska Promenada, Bled",
-  "price": "24.00",
-  "imgUrl": "assets/images/tickets/bled.png",
-  "longDescArray": [
-    { "isBold": true, "newLine": true, "text": "Join us for a general pub quiz at a unique location by Lake Bled!" },
-    { "isBold": false, "newLine": true, "text": "For the first time, Bled Summer presents pub quiz nights! Invite your friends and join us on Thursday, July 31 at 7:00 PM for a general knowledge quiz. You'll face around 10 themed categories – from film, music, geography, and sports to fun and unexpected challenges." },
-    { "isBold": true, "newLine": true, "text": "First time hearing about a pub quiz?" },
-    { "isBold": false, "newLine": true, "text": "It's a fun evening in a relaxed atmosphere. We ask the questions, and your team writes down the answers—no public answering involved! Guaranteed good vibes and a chance to toast with your group on a lovely summer night!" },
-    { "isBold": false, "newLine": true, "text": "Each competing team can have up to 4 members." },
-    { "isBold": true, "newLine": true, "text": "The top three teams will receive a prize!" },
-    { "isBold": false, "newLine": true, "text": "Spots are limited, so we recommend booking early." },
-    { "isBold": false, "newLine": true, "text": "See you at the first pub quiz by Lake Bled!" },
-    { "isBold": false, "newLine": true, "text": "*If international guests attend, the quiz will be conducted in both Slovenian and English." }
-  ],
-  "stripeLink": "https://buy.stripe.com/7sY00lcrufKQfl59ed5J60n"
-}
-
+    "stripeLink": "https://buy.stripe.com/bJe7sNajm1U0fl5gGF5J61q"
+  }
 ]
