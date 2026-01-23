@@ -10,6 +10,7 @@ export interface Event {
   date: string;
   time: string;
   location: string;
+  groupLimit: string;
   price: string;
   imgUrl: string;
   longDescArray: TextPart[];

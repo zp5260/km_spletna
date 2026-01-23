@@ -1,74 +1,167 @@
 [
-    {
-    "id": "Foerster-9-12-25",
-    "title": "Splošni pub kviz v Foersterju v Ljubljani",
-    "date": "Torek, 9. 12. 2025",
-    "time": "19:00",
-    "location": "Foerster bar (Rimska cesta 13, 1000 Ljubljana)",
-    "price": "24,00",
-    "imgUrl": "assets/images/tickets/foerster.png",
+  {
+    "id": "Filmi-24-2-26",
+    "title": "Filmski kviz prvič v kino dvorani Kina Bežigrad",
+    "date": "Torek, 24. 2. 2026",
+    "time": "20:00",
+    "location": "Kino Bežigrad",
+    "groupLimit": "3",
+    "price": "30,00",
+    "imgUrl": "assets/images/tickets/kinodvorana.png",
     "longDescArray": [
-      { "isBold": true, "newLine": true, "text": "Pridi na splošni pub kviz v Foerster! 💡" },
-      { "isBold": false, "newLine": true, "text": "Povabi prijatelje in se nam pridruži v torek, 9. decembra, ob 19:00 na pub kvizu splošnih tematik. Čaka vas približno 10 tematskih kategorij – od filma, glasbe, geografije in športa do bolj zabavnih in nepričakovanih izzivov. 😁" },
-      { "isBold": false, "newLine": true, "text": "Posamezna tekmovalna skupina lahko vsebuje do 4 člane." },
+      { "isBold": true, "newLine": true, "text": "Vabljeni na filmski kviz v kino dvorano! 🍿😍" },
+      { "isBold": false, "newLine": true, "text": "Na velikem platnu tokrat ne samo en film, a cel filmski kviz - prav posebna izkušnja prvič pri nas!" },
+      { "isBold": false, "newLine": true, "text": "Povabi kolege, kupi kokice in se nam pridruži v torek, 24. februarja, ob 20:00 na posebnem kvizu. Čaka vas približno 10 kategorij, povezanih s filmskim svetom - vprašanja vas bodo popeljala skozi priljubljene filme, ikonične like in nepozabne prizore. 🎬⭐️" },
+      { "isBold": false, "newLine": true, "text": "Posamezna tekmovalna skupina lahko vsebuje do 3 člane. Sedeli boste namreč na sedežih v dvorani." },
       { "isBold": true, "newLine": true, "text": "Zmagovalci prejmejo nagrado!" },
       { "isBold": false, "newLine": true, "text": "Število mest je omejeno, zato priporočamo zgodnjo rezervacijo." },
-{ "isBold": false, "newLine": true, "text": "*Opozorilo: Kviz ni primeren za udeležence lige, ki so tekmovali v četrtek, 4. 12., v New Castlu. Hvala za fer igro!" },
-      { "isBold": false, "newLine": true, "text": "Se vidimo! 💪" } 
-],
-    "stripeLink":"https://buy.stripe.com/14AaEQaQ43ay65Icv0g3605"
-  },
-      {
-    "id": "PK-10-12-25",
-    "title": "Tematski kviz: POP KULTURA v Kinu Bežigrad",
-    "date": "Sreda, 10. 12. 2025",
-    "time": "19:00",
-    "location": "Kino Bežigrad",
-    "price": "24,00",
-    "imgUrl": "assets/images/tickets/popkultura.jpg",
-    "longDescArray": [
-    { "isBold": true, "newLine": true, "text": "Vabljeni na prvi pub kviz na temo pop kulture! Vse o filmskih ikonah, glasbenih hitih, trendih, memih, zvezdnikih in  ostalem dogajanju na domači in tuji sceni v zadnjih desetletjih 🎬📺✨" },
-    { "isBold": false, "newLine": true, "text": "Za sodelovanje preprosto sestavi ekipo do 4 oseb, kupi vstopnico in jo pokaži na vhodu. Število mest je omejeno, zato si pravočasno zagotovi svojo karto." },
-    { "isBold": false, "newLine": true, "text": "Ob prijavi nam lahko zaupaš, kaj po tvoje na takem kvizu NE SME MANJKATI 🥤😎"},
-    { "isBold": false, "newLine": true, "text": "Zmagovalce kviza seveda čaka nagrada! 🏆" },
-      { "isBold": false, "newLine": true, "text": "Se vidimo!" }
+      { "isBold": false, "newLine": true, "text": "Se vidimo na posebnem doživetju v Kinu Bežigrad! 📽️" }
     ],
-    "stripeLink": "https://buy.stripe.com/8x23coe2g7qO51E66Cg3606"
+    "stripeLink": "https://buy.stripe.com/00wfZa2jyh1o0Lo0Mig360I"
   },
-        {
-    "id": "PK-11-12-25",
-    "title": "Tematski kviz: POP KULTURA v Hangarju v Izoli",
-    "date": "Četrtek, 11. 12. 2025",
+  {
+    "id": "Gust-27-1-26",
+    "title": "Splošni pub kviz v Guštu v Celju",
+    "date": "Torek, 27. 1. 2026",
     "time": "19:00",
-    "location": "Hangar (Tomažičeva ulica 10a, 6310 Izola)",
+    "location": "Gušt Bar (Ljubljanska cesta 7, 3000 Celje)",
+    "groupLimit": "4",
     "price": "24,00",
-    "imgUrl": "assets/images/tickets/popkultura.png",
+    "imgUrl": "assets/images/tickets/gust.png",
     "longDescArray": [
-    { "isBold": true, "newLine": true, "text": "Vabljeni na prvi pub kviz na temo pop kulture! Filmi, serije, glasbeni hiti, trendi, zvezdniki in ostalo dogajanje na sceni v zadnjih desetletjih 🎬📺✨" },
-    { "isBold": false, "newLine": true, "text": "Za sodelovanje preprosto sestavi ekipo do 4 oseb, kupi vstopnico in jo pokaži na vhodu. Število mest je omejeno, zato si pravočasno zagotovi svojo karto." },
-    { "isBold": false, "newLine": true, "text": "Zmagovalne 3 skupine prejmejo nagrade! 🏆" },
-    { "isBold": false, "newLine": true, "text": "*Opozorilo: Gre za ponovitev kviza 10. 12. v Kinu Bežigrad. Hvala za fer igro!" },
-      { "isBold": false, "newLine": true, "text": "Se vidimo!" }
+      { "isBold": true, "newLine": true, "text": "Pridi na splošni pub kviz v Gušt v Celju!" },
+      { "isBold": false, "newLine": true, "text": "Povabi kolege v torek, 27. januarja, ob 19:00 na pub kviz splošnih tematik. Čaka vas približno 10 tematskih kategorij – od filma, glasbe, zgodovine in športa do bolj zabavnih in nepričakovanih izzivov." },
+      { "isBold": false, "newLine": true, "text": "Posamezna tekmovalna skupina lahko vsebuje do 4 člane." },
+      { "isBold": true, "newLine": true, "text": "Zmagovalne ekipe prejmejo nagrade." },
+      { "isBold": false, "newLine": true, "text": "Število mest je omejeno, zato priporočamo zgodnjo rezervacijo." },
+      { "isBold": false, "newLine": true, "text": "*Opozorilo: v istem tednu se lahko udeležite le enega Kviz Mojstrovega splošnega pub kviza (liga šteje za splošni kviz). Hvala za fer igro!" },
+      { "isBold": false, "newLine": true, "text": "Se vidimo na kvizu!" }
     ],
-    "stripeLink": "https://buy.stripe.com/7sY28kf6k6mK0Lo1Qmg3607"
+    "stripeLink": "https://buy.stripe.com/3cIaEQcYcfXk79MfHcg360C"
   },
-    {
-    "id": "Fenix-16-12-25",
+
+  {
+    "id": "Fenix-27-1-26",
     "title": "Splošni pub kviz v Fenix bar & more v Kranju",
-    "date": "Torek, 16. 12. 2025",
+    "date": "Torek, 27. 1. 2026",
     "time": "19:00",
     "location": "FENIX BAR & MORE (Smledniška cesta 138)",
+    "groupLimit": "4",
     "price": "24,00",
     "imgUrl": "assets/images/tickets/kranj.jpg",
     "longDescArray": [
       { "isBold": true, "newLine": true, "text": "Pridi na splošni pub kviz v Kranj!" },
-      { "isBold": false, "newLine": true, "text": "Povabi prijatelje in se nam pridruži v torek, 16. decembra, ob 19:00 na pub kvizu splošnih tematik. Čaka vas približno 10 tematskih kategorij – od filma, glasbe, geografije in športa do bolj zabavnih in nepričakovanih izzivov." },
+      { "isBold": false, "newLine": true, "text": "Povabi prijatelje in se nam pridruži v torek, 27. januarja, ob 19:00 na pub kvizu splošnih tematik. Čaka vas približno 10 tematskih kategorij – od filma, glasbe, geografije in športa do bolj zabavnih in nepričakovanih izzivov." },
+      { "isBold": false, "newLine": true, "text": "Posamezna tekmovalna skupina lahko vsebuje do 4 člane." },
+      { "isBold": true, "newLine": true, "text": "Zmagovalne tri skupine prejmejo nagrado!" },
+      { "isBold": false, "newLine": true, "text": "Število mest je omejeno, zato priporočamo zgodnjo rezervacijo." },
+      { "isBold": false, "newLine": true, "text": "*Opozorilo: v istem tednu se lahko udeležite le enega Kviz Mojstrovega splošnega pub kviza (liga šteje za splošni kviz). Hvala za fer igro!" },
+      { "isBold": false, "newLine": true, "text": "Se vidimo!" }
+    ],
+    "stripeLink": "https://buy.stripe.com/7sY3cof6k12qcu68eKg360B"
+  },
+  {
+    "id": "Neboticnik-27-1-26",
+    "title": "Splošni pub kviz z razgledom v kavarni Nebotičnik",
+    "date": "Torek, 27. 1. 2026",
+    "time": "19:00",
+    "location": "Nebotičnik (Štefanova ulica 1, 1000 Ljubljana)",
+    "groupLimit": "4",
+    "price": "24,00",
+    "imgUrl": "assets/images/tickets/neboticnik.png",
+    "longDescArray": [
+      { "isBold": true, "newLine": true, "text": "Vabljeni na splošni pub kviz v kavarno na vrhu Nebotičnika! 😍" },
+      { "isBold": false, "newLine": true, "text": "Zberi skupino do 4 oseb in se nam pridruži v torek, 27. januarja, ob 19:00 na pub kvizu splošnih tematik. Čaka vas približno 10 tematskih kategorij – od filma, glasbe, zgodovine in športa do bolj zabavnih in nepričakovanih izzivov." },
+      { "isBold": false, "newLine": true, "text": "Posamezna tekmovalna skupina lahko vsebuje do 4 člane." },
+      { "isBold": true, "newLine": true, "text": "Zmagovalci prejmejo nagrado! 🏆" },
+      { "isBold": false, "newLine": true, "text": "Število mest je omejeno, zato priporočamo zgodnjo rezervacijo." },
+      { "isBold": false, "newLine": true, "text": "Se vidimo!" },
+      { "isBold": false, "newLine": true, "text": "*Opozorilo: v istem tednu se lahko udeležite le enega Kviz Mojstrovega splošnega pub kviza (liga šteje za splošni kviz). Hvala za fer igro!" }
+    ],
+    "stripeLink": "https://buy.stripe.com/28EbIU6zOh1o65I3Yug360E"
+  },
+  {
+    "id": "dvortacen-28-1-26",
+    "title": "Splošni pub kviz v Kavarni Dvor Tacen",
+    "date": "Sreda, 28. 1. 2026",
+    "time": "19:00",
+    "location": "Kavarna Dvor Tacen (Pot sodarjev 2, 1211 Ljubljana - Šmartno)",
+    "groupLimit": "4",
+    "price": "24,00",
+    "imgUrl": "assets/images/tickets/dvortacen.png",
+    "longDescArray": [
+      { "isBold": true, "newLine": true, "text": "Pridi na splošni pub kviz v Kavarno Dvor tacen! 💡" },
+      { "isBold": false, "newLine": true, "text": "Povabi kolege v sredo, 28. januarja, ob 19:00 na pub kviz splošnih tematik. Čaka vas približno 10 tematskih kategorij – od filma, glasbe, zgodovine in športa do bolj zabavnih in nepričakovanih izzivov. 😎" },
+      { "isBold": true, "newLine": true, "text": "Prvič slišiš za pub kviz?" },
+      { "isBold": false, "newLine": true, "text": "Gre za zabaven večer v sproščeni atmosferi. Mi postavljamo vprašanja, vi pa s skupino odgovarjate na listke brez izpostavljanja! Zagotovljena dobra volja in priložnost, da s svojo družbo nazdravite na lep decembrski večer!" },
+      { "isBold": false, "newLine": true, "text": "Posamezna tekmovalna skupina lahko vsebuje do 4 člane." },
+      { "isBold": true, "newLine": true, "text": "Zmagovalne 3 skupine prejmejo nagrado!" },
+      { "isBold": false, "newLine": true, "text": "Število mest je omejeno, zato priporočamo zgodnjo rezervacijo." },
+      { "isBold": false, "newLine": true, "text": "*Opozorilo: v istem tednu se lahko udeležite le enega Kviz Mojstrovega splošnega pub kviza (liga šteje za splošni kviz). Hvala za fer igro!" },
+      { "isBold": false, "newLine": true, "text": "Se vidimo na kvizu! 💪" }
+    ],
+    "stripeLink": "https://buy.stripe.com/eVq4gsaQ4fXk79Mdz4g360A"
+  },
+  {
+    "id": "NewCastle-28-1-26",
+    "title": "Splošni pub kviz v New Castlu v Ljubljani",
+    "date": "Sreda, 28. 1. 2026",
+    "time": "19:00",
+    "location": "New Castle (Kržičeva ulica 3, 1000 Ljubljana)",
+    "groupLimit": "4",
+    "price": "24,00",
+    "imgUrl": "assets/images/tickets/NC-kviz.png",
+    "longDescArray": [
+      { "isBold": true, "newLine": true, "text": "Pridi na splošni pub kviz v New Castle!💡" },
+      { "isBold": false, "newLine": true, "text": "Povabi prijatelje in se nam pridruži v sredo, 28. januarja, ob 19:00 na pub kvizu splošnih tematik. Čaka vas približno 10 tematskih kategorij – od filma, glasbe, geografije in športa do bolj zabavnih in nepričakovanih izzivov.😎" },
       { "isBold": false, "newLine": true, "text": "Posamezna tekmovalna skupina lahko vsebuje do 4 člane." },
       { "isBold": true, "newLine": true, "text": "Zmagovalci prejmejo nagrado!" },
       { "isBold": false, "newLine": true, "text": "Število mest je omejeno, zato priporočamo zgodnjo rezervacijo." },
-{ "isBold": false, "newLine": true, "text": "*Opozorilo: v istem tednu se lahko udeležite le enega Kviz Mojstrovega splošnega pub kviza (liga šteje za splošni kviz). Hvala za fer igro!" },
+      { "isBold": false, "newLine": true, "text": "*Opozorilo: v istem tednu se lahko udeležite le enega Kviz Mojstrovega splošnega pub kviza (liga šteje za splošni kviz). Hvala za fer igro!" },
       { "isBold": false, "newLine": true, "text": "Se vidimo!" }
     ],
-    "stripeLink": "https://buy.stripe.com/bJe7sNajm1U0fl5gGF5J61q"
+    "stripeLink":"https://buy.stripe.com/00w7sEgao9yWbq20Mig360z"
+  },
+  {
+    "id": "Emonec-29-1-26",
+    "title": "Splošni pub kviz v Emoncu v Kopru",
+    "date": "Četrtek, 29. 1. 2026",
+    "time": "19:00",
+    "location": "Emonec (Vanganelska cesta 20, 6000 Koper)",
+    "groupLimit": "4",
+    "price": "24,00",
+    "imgUrl": "assets/images/tickets/emonec.png",
+    "longDescArray": [
+      { "isBold": true, "newLine": true, "text": "Pridi na PRVI splošni pub kviz v Emonec! 💡" },
+      { "isBold": false, "newLine": true, "text": "Povabi kolege in se nam pridruži v četrtek, 29. januarja, ob 19:00 na pub kvizu splošnih tematik. Čaka vas približno 10 tematskih kategorij – od filma, glasbe, geografije in športa do bolj zabavnih izzivov. 😁" },
+      { "isBold": true, "newLine": true, "text": "Predlagamo, da pridete lačni, saj Emonec ponuja vrsto dobrot! 😋" },
+      { "isBold": false, "newLine": true, "text": "Posamezna tekmovalna skupina lahko vsebuje do 4 člane." },
+      { "isBold": true, "newLine": true, "text": "Zmagovalci prejmejo nagrado!" },
+      { "isBold": false, "newLine": true, "text": "Število mest je omejeno, zato priporočamo zgodnjo rezervacijo." },
+      { "isBold": false, "newLine": true, "text": "*Opozorilo: v istem tednu se lahko udeležite le enega Kviz Mojstrovega splošnega pub kviza (liga šteje za splošni kviz). Hvala za fer igro!" }
+    ],
+    "stripeLink":"https://buy.stripe.com/14AfZa5vK7qO0Lo0Mig360H"
+  },
+  {
+    "id": "holmes-3-2-26",
+    "title": "PRVI Splošni pub kviz v Holmes pubu v Mariboru",
+    "date": "Torek, 3. 2. 2026",
+    "time": "19:00",
+    "location": "Kavarna Dvor Tacen (Žitna ulica 12, 2000 Maribor)",
+    "groupLimit": "4",
+    "price": "24,00",
+    "imgUrl": "assets/images/tickets/holmes.png",
+    "longDescArray": [
+      { "isBold": true, "newLine": true, "text": "Kviz Mojster prihaja v Maribor! Pridi na PRVI splošni pub kviz v Holmes pub! 💡🍻" },
+      { "isBold": false, "newLine": true, "text": "Povabi kolege v torek, 3. februarja, ob 19:00 na pub kviz splošnih tematik. Čaka vas približno 10 tematskih kategorij – od filma, glasbe, zgodovine in športa do bolj zabavnih izzivov. 😎" },
+      { "isBold": true, "newLine": true, "text": "Prvič slišiš za pub kviz?" },
+      { "isBold": false, "newLine": true, "text": "Gre za zabaven večer v sproščeni atmosferi. Mi postavljamo vprašanja, vi pa s skupino odgovarjate na listke brez izpostavljanja! Zagotovljena dobra volja in priložnost, da s svojo družbo nazdravite na lep večer!" },
+      { "isBold": false, "newLine": true, "text": "Posamezna tekmovalna skupina lahko vsebuje do 4 člane." },
+      { "isBold": true, "newLine": true, "text": "Zmagovalne 3 skupine prejmejo nagrado!" },
+      { "isBold": false, "newLine": true, "text": "Število mest je omejeno, zato priporočamo zgodnjo rezervacijo." },
+      { "isBold": false, "newLine": true, "text": "*Opozorilo: v istem tednu se lahko udeležite le enega Kviz Mojstrovega splošnega pub kviza (liga šteje za splošni kviz). Hvala za fer igro!" },
+      { "isBold": false, "newLine": true, "text": "Se vidimo na kvizu! 💪" }
+    ],
+    "stripeLink": "https://buy.stripe.com/5kQfZa3nC8uS9hUbqWg360G"
   }
 ]

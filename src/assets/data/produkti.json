@@ -4,7 +4,7 @@
     "title": "store.digitalQuizGeneralAlpha.title",
     "shortDesc": "store.digitalQuizGeneralAlpha.shortDesc",
     "price": "19,99",
-    "onDiscount": true,
+    "onDiscount": false,
     "discountPrice": "14,99",
     "discountPercentage":"25",
     "imgUrl": "assets/images/products/kviz-doma/december/quizalpha.jpg",
@@ -24,14 +24,14 @@
       { "type": "image", "src": "assets/images/products/kviz-doma/december/details/december4.jpg" },
       { "type": "image", "src": "assets/images/products/kviz-doma/december/details/december5.jpg" }
     ],
-    "stripeLink": "https://buy.stripe.com/5kQ6oA1fu3aycu61Qmg3608"
+    "stripeLink": "https://buy.stripe.com/7sY14gaQ4bH4gKmgLgg360f"
   },
   {
     "id": 1,
     "title": "store.quizPackageTwo.title",
     "shortDesc": "store.quizPackageTwo.shortDesc",
     "price": "32,99",
-    "onDiscount": true,
+    "onDiscount": false,
     "discountPrice": "24,99",
     "discountPercentage":"25",
     "imgUrl": "assets/images/products/kviz-doma/december/bundletwo.jpg",
@@ -52,14 +52,14 @@
       { "type": "image", "src": "assets/images/products/kviz-doma/december/details/december4.jpg" },
       { "type": "image", "src": "assets/images/products/kviz-doma/december/details/december5.jpg" }
     ],
-    "stripeLink": "https://buy.stripe.com/28EcMYaQ46mK79M52yg360b"
+    "stripeLink": "https://buy.stripe.com/9B66oAgao6mK2Tw3Yug360i"
   },
   {
     "id": 2,
     "title": "store.quizPackageThree.title",
     "shortDesc": "store.quizPackageThree.shortDesc",
     "price": "42,99",
-    "onDiscount": true,
+    "onDiscount": false,
     "discountPrice": "32,99",
     "discountPercentage":"25",
     "imgUrl": "assets/images/products/kviz-doma/december/budlethree.jpg",
@@ -80,14 +80,14 @@
       { "type": "image", "src": "assets/images/products/kviz-doma/december/details/december4.jpg" },
       { "type": "image", "src": "assets/images/products/kviz-doma/december/details/december3.jpg" }
     ],
-    "stripeLink": "https://buy.stripe.com/aFadR2f6k9yWbq20Mig360c"
+    "stripeLink": "https://buy.stripe.com/eVqaEQ7DS9yW9hUcv0g360j"
   },
   {
     "id": 3,
     "title": "store.quizPackageFour.title",
     "shortDesc": "store.quizPackageThree.shortDesc",
     "price": "49,99",
-    "onDiscount": true,
+    "onDiscount": false,
     "discountPrice": "37,99",
     "discountPercentage":"25",
     "imgUrl": "assets/images/products/kviz-doma/december/bundlefour.jpg",
@@ -108,14 +108,14 @@
       { "type": "image", "src": "assets/images/products/kviz-doma/december/details/december4.jpg" },
       { "type": "image", "src": "assets/images/products/kviz-doma/december/details/december3.jpg" }
     ],
-    "stripeLink": "https://buy.stripe.com/eVq00c6zO26u2Twdz4g360d"
+    "stripeLink": "https://buy.stripe.com/dRm14gbU8h1o3XA2Uqg360k"
   },
   {
     "id": 4,
     "title": "store.digitalQuizHP.title",
     "shortDesc": "store.digitalQuizHP.shortDesc",
-    "price": "22,99",
-    "onDiscount": true,
+    "price": "19,99",
+    "onDiscount": false,
     "discountPrice": "14,99",
     "discountPercentage":"25",
     "imgUrl": "assets/images/products/kviz-doma/harrypotter.png",
@@ -135,14 +135,14 @@
       { "type": "image", "src": "assets/images/products/kviz-doma/summer-quizes/hp3.png" },
       { "type": "image", "src": "assets/images/products/kviz-doma/summer-quizes/hp4.png" }
     ],
-    "stripeLink": "https://buy.stripe.com/cNifZabU826u1PseD8g360e"
+    "stripeLink": "https://buy.stripe.com/3cI7sE7DScL83XA9iOg360n"
   },
   {
     "id": 5,
     "title": "store.digitalQuizGeneralBeta.title",
     "shortDesc": "store.digitalQuizGeneralBeta.shortDesc",
     "price": "19,99",
-    "onDiscount": true,
+    "onDiscount": false,
     "discountPrice": "14,99",
     "discountPercentage":"25",
     "imgUrl": "assets/images/products/kviz-doma/december/quizbeta.jpg",
@@ -162,14 +162,14 @@
       { "type": "image", "src": "assets/images/products/kviz-doma/december/details/december3.jpg" },
       { "type": "image", "src": "assets/images/products/kviz-doma/december/details/december5.jpg" }
     ],
-    "stripeLink": "https://buy.stripe.com/4gMaEQ0bq6mK1Pscv0g3609"
+    "stripeLink": "https://buy.stripe.com/28E5kw4rG9yWcu6cv0g360g"
   },
   {
     "id": 6,
     "title": "store.digitalQuizGeneralGama.title",
     "shortDesc": "store.digitalQuizGeneralGama.shortDesc",
     "price": "19,99",
-    "onDiscount": true,
+    "onDiscount": false,
     "discountPrice": "14,99",
     "discountPercentage":"25",
     "imgUrl": "assets/images/products/kviz-doma/december/quizgama.jpg",
@@ -189,7 +189,7 @@
       { "type": "image", "src": "assets/images/products/kviz-doma/december/details/december4.jpg" },
       { "type": "image", "src": "assets/images/products/kviz-doma/december/details/december5.jpg" }
     ],
-    "stripeLink": "https://buy.stripe.com/6oU4gsgao4eC79Mcv0g360a"
+    "stripeLink": "https://buy.stripe.com/fZu3cocYc3ayeCedz4g360h"
   },
   {
     "id": 7,
