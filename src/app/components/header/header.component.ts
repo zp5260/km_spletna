@@ -32,11 +32,9 @@ export class HeaderComponent implements OnInit {
       const langToUse = savedLang || (browserLang.startsWith('sl') ? 'sl' : 'en');
 
       this.currentLang = langToUse as 'sl' | 'en';
-      console.log('not else', this.currentLang)
       this.translate.setDefaultLang('sl');
       this.translate.use(this.currentLang);
     } else {
-      console.log('else')
       this.translate.setDefaultLang('sl');
       this.translate.use('sl');
     }
