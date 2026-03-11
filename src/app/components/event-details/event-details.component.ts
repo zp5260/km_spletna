@@ -37,8 +37,10 @@ export class EventDetailsComponent implements OnInit {
   }
 
   openStripeLink() {
-    if (isPlatformBrowser(this.platformId)) {
-      window.open(this.event.stripeLink, '_blank');
+    if (!isPlatformBrowser(this.platformId)) {
+      return;
     }
+    window.open(this.event.stripeLink, '_blank');
+
   }
 }

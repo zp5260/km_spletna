@@ -1,5 +1,30 @@
 [
   {
+    "id": -1,
+    "title": "store.digitalQuizMovies.title",
+    "shortDesc": "store.digitalQuizMovies.shortDesc",
+    "price": "19,99",
+    "onDiscount": false,
+    "discountPrice": "14,99",
+    "discountPercentage": "25",
+    "imgUrl": "assets/images/products/kviz-doma/movies/filmi1.png",
+    "isDescArray": true,
+    "longDescArray": [
+      { "isBold": false, "newLine": true, "text": "store.digitalQuizMovies.longDesc.part1" },
+      { "isBold": false, "newLine": true, "text": "store.digitalQuizMovies.longDesc.part2" },
+      { "isBold": false, "newLine": true, "text": "store.digitalQuizMovies.longDesc.part3" },
+      { "isBold": false, "newLine": true, "text": "store.digitalQuizMovies.longDesc.part4" },
+      { "isBold": false, "newLine": true, "text": "store.digitalQuizMovies.longDesc.part5" }
+    ],
+    "gallery": [
+      { "type": "image", "src": "assets/images/products/kviz-doma/movies/filmi1.png" },
+      { "type": "image", "src": "assets/images/products/kviz-doma/movies/filmi2.png" },
+      { "type": "image", "src": "assets/images/products/kviz-doma/movies/filmi3.png" },
+      { "type": "image", "src": "assets/images/products/kviz-doma/movies/filmi4.png" }
+    ],
+    "stripeLink": "https://buy.stripe.com/14A8wI0bqbH4alYdz4g361v"
+  },
+  {
     "id": 0,
     "title": "store.digitalQuizGeneralAlpha.title",
     "shortDesc": "store.digitalQuizGeneralAlpha.shortDesc",

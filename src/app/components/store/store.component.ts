@@ -48,13 +48,14 @@ export class StoreComponent implements OnInit {
       this.products = data;
     });
 
-    if (isPlatformBrowser(this.platformId)) {
-      this.isMobile = window.innerWidth <= 768;
-
-      window.addEventListener('resize', () => {
-        this.isMobile = window.innerWidth <= 768;
-      });
+    if (!isPlatformBrowser(this.platformId)) {
+      return;
     }
+    this.isMobile = window.innerWidth <= 768;
+
+    window.addEventListener('resize', () => {
+      this.isMobile = window.innerWidth <= 768;
+    });
   }
 
   openModal(product: Product) {

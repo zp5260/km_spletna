@@ -24,6 +24,18 @@
         "part10": "Si upate podati po stopinjah beneškega trgovca Marca da Ponteja in odkriti zaklad?"
       }
     },
+    "digitalQuizMovies": {
+      "title": "Filmski pub kviz za doma",
+      "shortDesc": "Digitalni pub kviz za vse ljubitelje filma, poln legendarnih prizorov, soundtrackov in filmskih izzivov.",
+      "longDesc": {
+        "part1": "Pripravite kokice, zberite svojo ekipo in se podajte na filmsko dogodivščino kar iz domačega kavča. 🎬🍿",
+        "part2": "Filmski pub kviz je digitalni kviz, sestavljen iz 60 vprašanj o svetu filma, ki vas popeljejo skozi raznolike filmske tematike - od kultnih klasik do sodobnih uspešnic. Vključuje tudi zvočne in video vsebine za še bolj pristno in zabavno izkušnjo. 🎶📽️",
+        "part3": "Za igro potrebujete le računalnik ali drugo napravo z dostopom do interneta, papirje in pisala ✍. Za še boljše vzdušje lahko računalnik povežete tudi s televizijo in si pričarate pravo domačo kino-kviz izkušnjo. Na začetku vas čakajo kratka navodila, nato pa celoten kviz z vsemi vsebinami in rešitvami. Samo sledite projekciji in uživajte! 🍻✌🏽",
+        "part4": "Kviz ni primeren za tiste, ki so se udeležili filmskega kviza 24. 2. 2026 v Kinu Bežigrad.",
+        "part5": "📧 Dostop do kviza (na vaš e-mail) prejmete v roku 24 ur od nakupa. Če pa si želite igrati hitreje, nam pišete na: kviz.mojster@gmail.com.",
+        "part6": "Kviz bo dostopen 4 mesece od nakupa."
+      }
+    },
     "digitalQuizGeneralAlpha": {
       "title": "Splošni pub kviz za doma ALFA",
       "shortDesc": "Digitalni pub kviz za doma splošnih tematik. Primeren za vse generacije in interesne skupine.",
@@ -32,7 +44,7 @@
         "part2": "Splošni kviz je sestavljen iz 10 različnih tematik vprašanj, primernih za vse generacije. Vključuje tudi zvočne in slikovne vsebine ter ekskluzivno nagradno igro \uD83C\uDF81.",
         "part3": "Za igro potrebujete le računalnik, dostop do interneta, papirje in pisala ✍. Na začetku vas čakajo kratka navodila, nato pa celoten kviz z vsemi posnetki in rešitvami. Samo sledite projekciji in uživajte! \uD83C\uDF7B✌\uD83C\uDFFD",
         "part4": "\uD83D\uDCE7 Dostop do kviza (na vaš e-mail) prejmete v roku 24 ur od nakupa. Če pa si želite igrati hitreje, nam pišete na: kviz.mojster@gmail.com.",
-        "part5": "Kvizi bodo dostopni od četrtka, 11. decembra do konca februarja 2026.."
+        "part5": "Kvizi bodo dostopni 4 mesece od nakupa."
       }
     },
     "digitalQuizGeneralBeta": {
@@ -43,7 +55,7 @@
         "part2": "Splošni kviz je sestavljen iz 10 različnih tematik vprašanj, primernih za vse generacije. Vključuje tudi zvočne in slikovne vsebine ter ekskluzivno nagradno igro \uD83C\uDF81.",
         "part3": "Za igro potrebujete le računalnik, dostop do interneta, papirje in pisala ✍. Na začetku vas čakajo kratka navodila, nato pa celoten kviz z vsemi posnetki in rešitvami. Samo sledite projekciji in uživajte! \uD83C\uDF7B✌\uD83C\uDFFD",
         "part4": "\uD83D\uDCE7 Dostop do kviza (na vaš e-mail) prejmete v roku 24 ur od nakupa. Če pa si želite igrati hitreje, nam pišete na: kviz.mojster@gmail.com.",
-        "part5": "Kvizi bodo dostopni od četrtka, 11. decembra do konca februarja 2026.."
+        "part5": "Kvizi bodo dostopni 4 mesece od nakupa."
       }
     },
     "digitalQuizGeneralGama": {
@@ -54,7 +66,7 @@
         "part2": "Splošni kviz je sestavljen iz 10 različnih tematik vprašanj, primernih za vse generacije. Vključuje tudi zvočne in slikovne vsebine ter ekskluzivno nagradno igro \uD83C\uDF81.",
         "part3": "Za igro potrebujete le računalnik, dostop do interneta, papirje in pisala ✍. Na začetku vas čakajo kratka navodila, nato pa celoten kviz z vsemi posnetki in rešitvami. Samo sledite projekciji in uživajte! \uD83C\uDF7B✌\uD83C\uDFFD",
         "part4": "\uD83D\uDCE7 Dostop do kviza (na vaš e-mail) prejmete v roku 24 ur od nakupa. Če pa si želite igrati hitreje, nam pišete na: kviz.mojster@gmail.com.",
-        "part5": "Kvizi bodo dostopni od četrtka, 11. decembra do konca februarja 2026.."
+        "part5": "Kvizi bodo dostopni 4 mesece od nakupa."
       }
     },
     "digitalQuizHP": {
@@ -66,7 +78,7 @@
         "part3": "Za igro potrebujete le računalnik, dostop do interneta, papirje in pisala ✍. Na začetku vas čakajo kratka navodila, nato pa celoten kviz z vsemi posnetki in rešitvami. Samo sledite projekciji in uživajte! \uD83C\uDF7B✌\uD83C\uDFFD",
         "part4": "Kviz ni primeren za tiste, ki so se udeležili Kviz Mojstrovega Harry Potter kviza 23. 1. 2024 v Foersterju.",
         "part5": "\uD83D\uDCE7 Dostop do kviza (na vaš e-mail) prejmete v roku 24 ur od nakupa. Če pa si želite igrati hitreje, nam pišete na: kviz.mojster@gmail.com.",
-        "part6": "Kvizi bodo dostopni od četrtka, 11. decembra do konca februarja 2026.."
+        "part6": "Kvizi bodo dostopni 4 mesece od nakupa."
       }
     },
     "quizPackageTwo": {
@@ -78,7 +90,7 @@
         "part3": "Za igro potrebujete le računalnik, dostop do interneta, papirje in pisala ✍. Na začetku vas čakajo kratka navodila, nato pa celoten kviz z vsemi posnetki in rešitvami. Samo sledite projekciji in uživajte! \uD83C\uDF7B✌\uD83C\uDFFD",
         "part4": "Harry Potter kviz ni primeren za tiste, ki so se udeležili Kviz Mojstrovega Harry Potter kviza 23. 1. 2024 v Foersterju.",
         "part5": "\uD83D\uDCE7 Dostop do kviza (na vaš e-mail) prejmete v roku 24 ur od nakupa. Če pa si želite igrati hitreje, nam pišete na: kviz.mojster@gmail.com.",
-        "part6": "Kvizi bodo dostopni od četrtka, 11. decembra do konca februarja 2026."
+        "part6": "Kvizi bodo dostopni 4 mesece od nakupa."
       }
     },
     "quizPackageThree": {
@@ -90,7 +102,7 @@
         "part3": "Za igro potrebujete le računalnik, dostop do interneta, papirje in pisala ✍. Na začetku vas čakajo kratka navodila, nato pa celoten kviz z vsemi posnetki in rešitvami. Samo sledite projekciji in uživajte! \uD83C\uDF7B✌\uD83C\uDFFD",
         "part4": "Harry Potter kviz ni primeren za tiste, ki so se udeležili Kviz Mojstrovega Harry Potter kviza 23. 1. 2024 v Foersterju.",
         "part5": "\uD83D\uDCE7 Dostop do kvizov (na vaš e-mail) prejmete v roku 24 ur od nakupa. Če pa si želite igrati hitreje, nam pišete na: kviz.mojster@gmail.com.",
-        "part6": "Kvizi bodo dostopni od četrtka, 11. decembra do konca februarja 2026."
+        "part6": "Kvizi bodo dostopni 4 mesece od nakupa."
       }
     },
     "quizPackageFour": {
@@ -102,7 +114,7 @@
         "part3": "Za igro potrebujete le računalnik, dostop do interneta, papirje in pisala ✍. Na začetku vas čakajo kratka navodila, nato pa celoten kviz z vsemi posnetki in rešitvami. Samo sledite projekciji in uživajte! \uD83C\uDF7B✌\uD83C\uDFFD",
         "part4": "Harry Potter kviz ni primeren za tiste, ki so se udeležili Kviz Mojstrovega Harry Potter kviza 23. 1. 2024 v Foersterju.",
         "part5": "\uD83D\uDCE7 Dostop do kvizov (na vaš e-mail) prejmete v roku 24 ur od nakupa. Če pa si želite igrati hitreje, nam pišete na: kviz.mojster@gmail.com.",
-        "part6": "Kvizi bodo dostopni od četrtka, 11. decembra do konca februarja 2026."
+        "part6": "Kvizi bodo dostopni 4 mesece od nakupa."
       }
     },
     "voucher": {
